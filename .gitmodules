@@ -1,0 +1,3 @@
+[submodule "YBlog/themes/hugo-theme-stack"]
+	path = YBlog/themes/hugo-theme-stack
+	url = https://github.com/CaiJimmy/hugo-theme-stack/
