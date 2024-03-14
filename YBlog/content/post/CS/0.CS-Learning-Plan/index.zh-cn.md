@@ -1,7 +1,7 @@
 ---
 title: "CS学习计划"
 date: 2024-03-10T15:58:41+08:00
-draft: true
+draft: false
 taps: ['CS', 'plan']
 categories: ['learning', 'OS']
 author: ["Yeelight"]

@@ -2,7 +2,7 @@
 title: "Linux"
 date: 2024-03-14T22:49:04+08:00
 draft: false
-taps: []
+taps: ['Linux']
 categories: ['Linux', 'OS']
 author: ["Yeelight"]
 showtoc: true
