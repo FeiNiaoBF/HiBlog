@@ -1,0 +1,22 @@
+{
+    "sourceFile": "content/post/Gohh/3.OS/LinuxLearn/Notes/index.zh-cn.md",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 1,
+            "patches": [
+                {
+                    "date": 1712581746119,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1712581763717,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -26,14 +26,14 @@\n \n ## 个人 Linux 的学习\n \n [Linux个人学习记录]({{< relref \"\" >}})\n-[命令行的魅力]({{< relref \"post/CS/3.OS/LinuxLearn/Line/index.zh-cn.md\" >}})\n+[命令行的魅力]({{< relref \"post/Gohh/3.OS/LinuxLearn/Line/index.zh-cn.md\" >}})\n \n ### 分类\n \n-[文件描述符]({{< relref \"post/CS/3.OS/LinuxLearn/FD/index.zh-cn.md\" >}})\n-<!-- [管道]({{< relref \"post/CS/3.OS/LinuxLearn/pipe/index.zh-cn.md\" >}}) -->\n+[文件描述符]({{< relref \"post/Gohh/3.OS/LinuxLearn/FD/index.zh-cn.md\" >}})\n+<!-- [管道]({{< relref \"post/Gohh/3.OS/LinuxLearn/pipe/index.zh-cn.md\" >}}) -->\n [进程（Process）和 线程（Thread）]()\n \n ### 在 XV 6 中 Syscall 函数\n \n"
+                }
+            ],
+            "date": 1712581746119,
+            "name": "Commit-0",
+            "content": "---\ntitle: \"操作系统的具体学习\"\ndate: 2024-03-10T16:34:18+08:00\ndraft: false\ntaps: ['OS']\ncategories: ['linux', 'OS', 'xv6', 'learning']\nauthor: [\"Yeelight\"]\nshowtoc: true\nweight:\nreadingTime: true\n---\n\n## 通过 XV6 了解操作系统\n\n我希望通过 6. S081 的学习来学习操作系统的强大，以下的是我在学习中的笔记：\n[通过 XV6 来学习操作系统(OSTEP)]({{< relref \"post/CS/3.OS/S6.081/xv6_learn/index.zh-cn.md\" >}})\n\n- [XV6的gdb调试]({{< relref \"post/CS/3.OS/S6.081/xv6_gdb_debug/index.zh-cn.md\" >}})\n- [XV6的源码解析]({{< relref \"post/CS/3.OS/S6.081/xv6_src/index.zh-cn.md\" >}})\n<!-- - [XV6的内存虚拟化]({{< relref \"post/CS/3.OS/S6.081/xv6_vmem/index.zh-cn.md\" >}}) -->\n- [XV6中的trap]({{< relref \"post/CS/3.OS/S6.081/xv6_trap/index.zh-cn.md\" >}})\n- [XV6的中断]({{< relref \"post/CS/3.OS/S6.081/xv6_interrupt/index.zh-cn.md\" >}})\n- [XV6的锁和并行]({{< relref \"post/CS/3.OS/S6.081/xv6_lock/index.zh-cn.md\" >}})\n- [XV6的进程和线程]({{< relref \"post/Gohh/3.OS/S6.081/xv6_process/index.zh-cn.md\" >}})\n- [XV6的文件系统]({{< relref \"post/Gohh/3.OS/S6.081/xv6_file_system/index.zh-cn.md\" >}})\n\n## 个人 Linux 的学习\n\n[Linux个人学习记录]({{< relref \"\" >}})\n[命令行的魅力]({{< relref \"post/CS/3.OS/LinuxLearn/Line/index.zh-cn.md\" >}})\n\n### 分类\n\n[文件描述符]({{< relref \"post/CS/3.OS/LinuxLearn/FD/index.zh-cn.md\" >}})\n<!-- [管道]({{< relref \"post/CS/3.OS/LinuxLearn/pipe/index.zh-cn.md\" >}}) -->\n[进程（Process）和 线程（Thread）]()\n\n### 在 XV 6 中 Syscall 函数\n\n|**系统调用**|**描述**|\n|---|---|\n|`int fork()`|创建一个进程，返回子进程的PID|\n|`int exit(int status)`|终止当前进程，并将状态报告给wait()函数。无返回|\n| `int wait(int *status)` |等待一个子进程退出; 将退出状态存入 `*status`; 返回子进程 PID。|\n|`int kill(int pid)`|终止对应PID的进程，返回0，或返回-1表示错误|\n|`int getpid()`|返回当前进程的PID|\n|`int sleep(int n)`|暂停n个时钟节拍|\n|`int exec(char *file, char *argv[])`|加载一个文件并使用参数执行它; 只有在出错时才返回|\n|`char *sbrk(int n)`|按n 字节增长进程的内存。返回新内存的开始|\n|`int open(char *file, int flags)`|打开一个文件；flags表示read/write；返回一个fd（文件描述符）|\n|`int write(int fd, char *buf, int n)`|从buf 写n 个字节到文件描述符fd; 返回n|\n|`int read(int fd, char *buf, int n)`|将n 个字节读入buf；返回读取的字节数；如果文件结束，返回0|\n|`int close(int fd)`|释放打开的文件fd|\n|`int dup(int fd)`|返回一个新的文件描述符，指向与fd 相同的文件|\n|`int pipe(int p[])`|创建一个管道，把read/write文件描述符放在p[0]和p[1]中|\n|`int chdir(char *dir)`|改变当前的工作目录|\n|`int mkdir(char *dir)`|创建一个新目录|\n|`int mknod(char *file, int, int)`|创建一个设备文件|\n|`int fstat(int fd, struct stat *st)`|将打开文件fd的信息放入*st|\n|`int stat(char *file, struct stat *st)`|将指定名称的文件信息放入*st|\n|`int link(char *file1, char *file2)`|为文件file1创建另一个名称(file2)|\n|`int unlink(char *file)`|删除一个文件|\n\n​ 来自表1.2：xv6系统调用（除非另外声明，这些系统调用返回0表示无误，返回-1表示出错）\n\n[fork() 函数]({{< relref \"\" >}})\n[exec() 函数]({{< relref \"\" >}})\n[exit() 函数]({{< relref \"\" >}})\n\n## 课程教材\n\nbook-riscv-rev2\n\n操作系统-三个简单的部分-ostep\n\n鸟哥的Linux私房菜 基础学习篇 第四版 (鸟哥)\n\n## MIT6.S081 的实验记录\n\n[MIT6.S081 的实验问题]({{< relref \"\" >}})\n"
+        }
+    ]
+}

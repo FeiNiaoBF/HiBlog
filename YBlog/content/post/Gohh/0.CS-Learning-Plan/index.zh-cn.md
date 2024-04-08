@@ -8,7 +8,7 @@ author: ['Yeelight']
 showtoc: true
 weight: -100
 readingTime: true
-image: "photo_2024-04-08_20-31-47.jpg"
+image: "https://s2.loli.net/2024/04/08/Xej8au1VkhZN4HT.jpg"
 ---
 
 ## 计算机语言基础
@@ -19,7 +19,7 @@ image: "photo_2024-04-08_20-31-47.jpg"
 
 ### Go 语言
 
-———> [Go 语言学习]({{< relref "post/CS/1.ComputerBasics/CSLanguages/Golang/_index.zh-cn.md" >}})
+———> [Go 语言学习]({{< relref "post/Gohh/1.ComputerBasics/CSLanguages/Golang/_index.zh-cn.md" >}})
 
 **项目练习**
 

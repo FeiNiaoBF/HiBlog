@@ -1,0 +1,22 @@
+{
+    "sourceFile": "content/post/Gohh/Personal/update/index.zh-cn.md",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 1,
+            "patches": [
+                {
+                    "date": 1712581672340,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1712581678273,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -8,11 +8,11 @@\n showtoc: true\n weight: -110\n math: false\n readingTime: true\n-image: 'pexels-andreea-ch-1166643.jpg'\n+image: 'https://s2.loli.net/2024/04/08/bN8h1ZycAzF5MHu.jpg'\n ---\n-![](https://s2.loli.net/2024/04/08/bN8h1ZycAzF5MHu.jpg)\n+![]()\n ## Hello\n \n 你好，这是，这里面是记录我对自己的博客 web 更新的日记。\n \n"
+                }
+            ],
+            "date": 1712581672340,
+            "name": "Commit-0",
+            "content": "---\ntitle: '博客搭建更新日记✨'\ndate: 2023-03-08T19:56:58+08:00\ndraft: false\ntaps: ['update']\ncategories: ['update']\nauthor: ['Yeelight']\nshowtoc: true\nweight: -110\nmath: false\nreadingTime: true\nimage: 'pexels-andreea-ch-1166643.jpg'\n---\n![](https://s2.loli.net/2024/04/08/bN8h1ZycAzF5MHu.jpg)\n## Hello\n\n你好，这是，这里面是记录我对自己的博客 web 更新的日记。\n\n## March 10，2023\n\n博客使用 hugo 了\n\n## April 20, 2023\n\n我使用了图床，蛮好用的 😁\n\n## April 25, 2023\n\n我更新了一些社交方式\n\n更新一下我的博客的配置\n\n## Mar 10，2024\n\n好久不见了，这一次我把近一年的笔记进行一个整理，然后更新到了博客上。\n也做了许多的计划和之后的规划\n"
+        }
+    ]
+}

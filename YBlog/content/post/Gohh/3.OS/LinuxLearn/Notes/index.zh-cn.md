@@ -13,26 +13,26 @@ readingTime: true
 ## 通过 XV6 了解操作系统
 
 我希望通过 6. S081 的学习来学习操作系统的强大，以下的是我在学习中的笔记：
-[通过 XV6 来学习操作系统(OSTEP)]({{< relref "post/CS/3.OS/S6.081/xv6_learn/index.zh-cn.md" >}})
+[通过 XV6 来学习操作系统(OSTEP)]({{< relref "post/Gohh/3.OS/S6.081/xv6_learn/index.zh-cn.md" >}})
 
-- [XV6的gdb调试]({{< relref "post/CS/3.OS/S6.081/xv6_gdb_debug/index.zh-cn.md" >}})
-- [XV6的源码解析]({{< relref "post/CS/3.OS/S6.081/xv6_src/index.zh-cn.md" >}})
-<!-- - [XV6的内存虚拟化]({{< relref "post/CS/3.OS/S6.081/xv6_vmem/index.zh-cn.md" >}}) -->
-- [XV6中的trap]({{< relref "post/CS/3.OS/S6.081/xv6_trap/index.zh-cn.md" >}})
-- [XV6的中断]({{< relref "post/CS/3.OS/S6.081/xv6_interrupt/index.zh-cn.md" >}})
-- [XV6的锁和并行]({{< relref "post/CS/3.OS/S6.081/xv6_lock/index.zh-cn.md" >}})
-- [XV6的进程和线程]({{< relref "post/CS/3.OS/S6.081/xv6_process/index.zh-cn.md" >}})
-- [XV6的文件系统]({{< relref "post/CS/3.OS/S6.081/xv6_file_system/index.zh-cn.md" >}})
+- [XV6的gdb调试]({{< relref "post/Gohh/3.OS/S6.081/xv6_gdb_debug/index.zh-cn.md" >}})
+- [XV6的源码解析]({{< relref "post/Gohh/3.OS/S6.081/xv6_src/index.zh-cn.md" >}})
+<!-- - [XV6的内存虚拟化]({{< relref "post/Gohh/3.OS/S6.081/xv6_vmem/index.zh-cn.md" >}}) -->
+- [XV6中的trap]({{< relref "post/Gohh/3.OS/S6.081/xv6_trap/index.zh-cn.md" >}})
+- [XV6的中断]({{< relref "post/Gohh/3.OS/S6.081/xv6_interrupt/index.zh-cn.md" >}})
+- [XV6的锁和并行]({{< relref "post/Gohh/3.OS/S6.081/xv6_lock/index.zh-cn.md" >}})
+- [XV6的进程和线程]({{< relref "post/Gohh/3.OS/S6.081/xv6_process/index.zh-cn.md" >}})
+- [XV6的文件系统]({{< relref "post/Gohh/3.OS/S6.081/xv6_file_system/index.zh-cn.md" >}})
 
 ## 个人 Linux 的学习
 
 [Linux个人学习记录]({{< relref "" >}})
-[命令行的魅力]({{< relref "post/CS/3.OS/LinuxLearn/Line/index.zh-cn.md" >}})
+[命令行的魅力]({{< relref "post/Gohh/3.OS/LinuxLearn/Line/index.zh-cn.md" >}})
 
 ### 分类
 
-[文件描述符]({{< relref "post/CS/3.OS/LinuxLearn/FD/index.zh-cn.md" >}})
-<!-- [管道]({{< relref "post/CS/3.OS/LinuxLearn/pipe/index.zh-cn.md" >}}) -->
+[文件描述符]({{< relref "post/Gohh/3.OS/LinuxLearn/FD/index.zh-cn.md" >}})
+<!-- [管道]({{< relref "post/Gohh/3.OS/LinuxLearn/pipe/index.zh-cn.md" >}}) -->
 [进程（Process）和 线程（Thread）]()
 
 ### 在 XV 6 中 Syscall 函数
