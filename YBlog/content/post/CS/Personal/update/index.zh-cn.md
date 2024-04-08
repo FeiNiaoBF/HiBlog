@@ -2,8 +2,8 @@
 title: '博客搭建更新日记✨'
 date: 2023-03-08T19:56:58+08:00
 draft: false
-taps: []
-categories: []
+taps: ['update']
+categories: ['update']
 author: ['Yeelight']
 showtoc: true
 weight: -110
