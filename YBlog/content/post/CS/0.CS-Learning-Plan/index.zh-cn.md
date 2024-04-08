@@ -1,14 +1,14 @@
 ---
-title: "CS学习计划"
+title: 'CS学习计划'
 date: 2024-03-10T15:58:41+08:00
 draft: false
 taps: ['CS', 'plan']
 categories: ['learning', 'OS']
-author: ["Yeelight"]
+author: ['Yeelight']
 showtoc: true
 weight: -100
 readingTime: true
-image: "matt-le-SJSpo9hQf7s-unsplash.jpg"
+image: "photo_2024-04-08_20-31-47.jpg"
 ---
 
 ## 计算机语言基础
@@ -37,17 +37,18 @@ image: "matt-le-SJSpo9hQf7s-unsplash.jpg"
 
 - **[数组]({{< relref "" >}})**：是一种线性表数据结构，用于存储相同类型的数据元素。
 
-
-  - [x] *二分搜索*
-  - [x] *冒泡排序*
-  - [ ] *动态规划*
+  - [x] _二分搜索_
+  - [x] _冒泡排序_
+  - [ ] _动态规划_
   - ... ...
+
 - **[链表]({{< relref "" >}})**：由一系列节点组成的数据结构，每个节点包含数据和指向下一个节点的指针。
 
-  - [ ] *反转链表*
-  - [ ] *环形链表*
-  - [ ] *LRU 缓存算法*
+  - [ ] _反转链表_
+  - [ ] _环形链表_
+  - [ ] _LRU 缓存算法_
   - ... ...
+
 - **栈**：一种遵循后进先出（LIFO）原则的数据结构，只允许在表的一端进行插入和删除操作。
   - [ ]
 - **队列**：一种遵循先进先出（FIFO）原则的数据结构，允许在表的一端进行插入，在另一端进行删除操作。
@@ -115,8 +116,8 @@ image: "matt-le-SJSpo9hQf7s-unsplash.jpg"
 
 ## CS 后续学习路径
 
- 为自身打造的路径
-_
+为自身打造的路径
+\_
 目标：人工智能**Artificial intelligence**
 数学
 [Search --- Graph theory]({{< relref "" >}})
@@ -124,7 +125,6 @@ _
 [Knowledge --- Boolean logic]({{< relref "" >}})
 
 [Uncertainty --- Probability]({{< relref "" >}})
-
 
 目标：应用程序开发**Application Developer**
 
