@@ -1,0 +1,30 @@
+{
+    "sourceFile": "content/post/Gohh/1.ComputerBasics/CSLanguages/Golang/development/_index.zh-cn.md",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 3,
+            "patches": [
+                {
+                    "date": 1715566188051,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1715566194175,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,6 @@\n ---\n-title: \"\"\n+title: \"development\"\n date: 2024-03-14T21:53:46+08:00\n draft: false\n taps: []\n categories: []\n"
+                },
+                {
+                    "date": 1715567064092,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,6 @@\n ---\n-title: \"development\"\n+title: \"承\"\n date: 2024-03-14T21:53:46+08:00\n draft: false\n taps: []\n categories: []\n"
+                },
+                {
+                    "date": 1715567071779,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,9 +5,9 @@\n taps: []\n categories: []\n author: [\"Yeelight\"]\n showtoc: true\n-weight:\n+weight: -90\n math: false\n readingTime: true\n \n ---\n"
+                }
+            ],
+            "date": 1715566188051,
+            "name": "Commit-0",
+            "content": "---\ntitle: \"\"\ndate: 2024-03-14T21:53:46+08:00\ndraft: false\ntaps: []\ncategories: []\nauthor: [\"Yeelight\"]\nshowtoc: true\nweight:\nmath: false\nreadingTime: true\n\n---\n"
+        }
+    ]
+}

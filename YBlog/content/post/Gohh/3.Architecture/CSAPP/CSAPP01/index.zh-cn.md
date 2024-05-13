@@ -6,7 +6,7 @@ tags: [CSAPP]
 categories: ["CSAPP","CS"]
 author: ["Yeelight"]
 showtoc: true
-weight: 2
+weight:
 readingTime: true
 ---
 

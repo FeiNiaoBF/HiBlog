@@ -1,0 +1,62 @@
+{
+    "sourceFile": "content/post/Gohh/1.ComputerBasics/CSLanguages/Golang/development/InterviewQuestions/index.zh-cn.md",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 11,
+            "patches": [
+                {
+                    "date": 1715565613725,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1715565622137,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -13,31 +13,30 @@\n \n ## 成功软件 4.24\n \n - 主要是以项目问问题---后端项目小银行\n-\t- 问具体数据表\n-\t\t有三个表，数据库的范式\n-\t\t怎么使用的（我这里忘记有一个表是做什么了 : ( ）\n-\t- ORM: 第三方的库的 sqlc\n-\t- 项目中具体的 API 的实现\n-\t\tGo 中的 Gin\n-\t\tRESTful\n-\t- 配置管理（这个是项目的配置，不是面对用户的）\n+- 问具体数据表\n+  有三个表，数据库的范式\n+  怎么使用的（我这里忘记有一个表是做什么了 : ( ）\n+- ORM: 第三方的库的 sqlc\n+- 项目中具体的 API 的实现\n+  Go 中的 Gin\n+  RESTful\n+- 配置管理（这个是项目的配置，不是面对用户的）\n - 吃豆人的项目\n-\t- Go 协程的使用（我没说清楚）\n+- Go 协程的使用（我没说清楚）\n - Docker 的使用\n-\t- 怎么理解容器-容器为什么叫容器\n-\t- 映像和容器的区别\n-\t- Docker 是什么\n-\t- Docker File（我不会就没问）\n-\t- docker run 的使用\n+- 怎么理解容器-容器为什么叫容器\n+- 映像和容器的区别\n+- Docker 是什么\n+- Docker File（我不会就没问）\n+- docker run 的使用\n - Github Action\n - Makefile 用来做什么\n - Go 中的 context 的使用（我没具体的看过）\n - Go 的标准库有哪些使用和了解\n - 一些操作系统的问题\n-\t- 文件系统-log\n-\t- lock-原子操作\n+- 文件系统-log\n+- lock-原子操作\n - Linux 常用命令\n - git 常用命令\n-\t- 有一串每个提交它那有一串那个数字英文的组合 - SHA-1哈希算法-哈希值\n-\n+- 有一串每个提交它那有一串那个数字英文的组合 - SHA-1哈希算法-哈希值\n"
+                },
+                {
+                    "date": 1715565629266,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,8 +1,8 @@\n ---\n title: \"InterviewQuestions\"\n date: 2024-05-13T09:13:20+08:00\n-draft: true\n+draft: fa\n taps: []\n categories: []\n author: [\"Yeelight\"]\n showtoc: true\n"
+                },
+                {
+                    "date": 1715565644499,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,9 @@\n ---\n-title: \"InterviewQuestions\"\n+title: \"Golang面试集\"\n date: 2024-05-13T09:13:20+08:00\n-draft: fa\n-taps: []\n+draft: false\n+taps: [\"\"]\n categories: []\n author: [\"Yeelight\"]\n showtoc: true\n weight:\n"
+                },
+                {
+                    "date": 1715565650400,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,9 @@\n ---\n title: \"Golang面试集\"\n date: 2024-05-13T09:13:20+08:00\n draft: false\n-taps: [\"\"]\n+taps: [\"]\n categories: []\n author: [\"Yeelight\"]\n showtoc: true\n weight:\n"
+                },
+                {
+                    "date": 1715565657785,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,9 @@\n ---\n title: \"Golang面试集\"\n date: 2024-05-13T09:13:20+08:00\n draft: false\n-taps: [\"]\n+taps: [\"Golang\", \"I]\n categories: []\n author: [\"Yeelight\"]\n showtoc: true\n weight:\n"
+                },
+                {
+                    "date": 1715565665844,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,10 +1,10 @@\n ---\n title: \"Golang面试集\"\n date: 2024-05-13T09:13:20+08:00\n draft: false\n-taps: [\"Golang\", \"I]\n-categories: []\n+taps: [\"Golang\", \"Interview\"]\n+categories: [\"Golang\", \"]\n author: [\"Yeelight\"]\n showtoc: true\n weight:\n math: false\n"
+                },
+                {
+                    "date": 1715565672608,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,9 +2,9 @@\n title: \"Golang面试集\"\n date: 2024-05-13T09:13:20+08:00\n draft: false\n taps: [\"Golang\", \"Interview\"]\n-categories: [\"Golang\", \"]\n+categories: [\"Golang\", \"de\"]\n author: [\"Yeelight\"]\n showtoc: true\n weight:\n math: false\n"
+                },
+                {
+                    "date": 1715565680921,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,9 +2,9 @@\n title: \"Golang面试集\"\n date: 2024-05-13T09:13:20+08:00\n draft: false\n taps: [\"Golang\", \"Interview\"]\n-categories: [\"Golang\", \"de\"]\n+categories: [\"Golang\", \"development\"]\n author: [\"Yeelight\"]\n showtoc: true\n weight:\n math: false\n@@ -15,9 +15,9 @@\n \n - 主要是以项目问问题---后端项目小银行\n - 问具体数据表\n   有三个表，数据库的范式\n-  怎么使用的（我这里忘记有一个表是做什么了 : ( ）\n+  怎么使用的（我这里忘记有一个表是做什么了 :）\n - ORM: 第三方的库的 sqlc\n - 项目中具体的 API 的实现\n   Go 中的 Gin\n   RESTful\n"
+                },
+                {
+                    "date": 1715565686451,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -15,9 +15,9 @@\n \n - 主要是以项目问问题---后端项目小银行\n - 问具体数据表\n   有三个表，数据库的范式\n-  怎么使用的（我这里忘记有一个表是做什么了 :）\n+  怎么使用的（我这里忘记有一个表是做什么了 :(）\n - ORM: 第三方的库的 sqlc\n - 项目中具体的 API 的实现\n   Go 中的 Gin\n   RESTful\n"
+                },
+                {
+                    "date": 1715565997823,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -15,9 +15,9 @@\n \n - 主要是以项目问问题---后端项目小银行\n - 问具体数据表\n   有三个表，数据库的范式\n-  怎么使用的（我这里忘记有一个表是做什么了 :(）\n+  怎么使用的（我这里忘记有一个表是做什么了 :( ）\n - ORM: 第三方的库的 sqlc\n - 项目中具体的 API 的实现\n   Go 中的 Gin\n   RESTful\n"
+                },
+                {
+                    "date": 1715566102947,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,6 @@\n ---\n-title: \"Golang面试集\"\n+title: \"面试集\"\n date: 2024-05-13T09:13:20+08:00\n draft: false\n taps: [\"Golang\", \"Interview\"]\n categories: [\"Golang\", \"development\"]\n"
+                }
+            ],
+            "date": 1715565613725,
+            "name": "Commit-0",
+            "content": "---\ntitle: \"InterviewQuestions\"\ndate: 2024-05-13T09:13:20+08:00\ndraft: true\ntaps: []\ncategories: []\nauthor: [\"Yeelight\"]\nshowtoc: true\nweight:\nmath: false\nreadingTime: true\n---\n\n## 成功软件 4.24\n\n- 主要是以项目问问题---后端项目小银行\n\t- 问具体数据表\n\t\t有三个表，数据库的范式\n\t\t怎么使用的（我这里忘记有一个表是做什么了 : ( ）\n\t- ORM: 第三方的库的 sqlc\n\t- 项目中具体的 API 的实现\n\t\tGo 中的 Gin\n\t\tRESTful\n\t- 配置管理（这个是项目的配置，不是面对用户的）\n- 吃豆人的项目\n\t- Go 协程的使用（我没说清楚）\n- Docker 的使用\n\t- 怎么理解容器-容器为什么叫容器\n\t- 映像和容器的区别\n\t- Docker 是什么\n\t- Docker File（我不会就没问）\n\t- docker run 的使用\n- Github Action\n- Makefile 用来做什么\n- Go 中的 context 的使用（我没具体的看过）\n- Go 的标准库有哪些使用和了解\n- 一些操作系统的问题\n\t- 文件系统-log\n\t- lock-原子操作\n- Linux 常用命令\n- git 常用命令\n\t- 有一串每个提交它那有一串那个数字英文的组合 - SHA-1哈希算法-哈希值\n\n"
+        }
+    ]
+}

@@ -1,0 +1,394 @@
+{
+    "sourceFile": "content/post/Gohh/1.ComputerBasics/CSLanguages/Golang/index.zh-cn.md",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 94,
+            "patches": [
+                {
+                    "date": 1715561164274,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1715561169388,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,9 +5,10 @@\n taps: [\"Golang\"]\n categories: [\"Golang\", \"CS\", \"Languages\"]\n author: [\"Yeelight\"]\n showtoc: true\n-weight: -100readingTime: true\n+weight: -100\n+readingTime: true\n ---\n ## “起”\n > Let's get going Golang!\n \n"
+                },
+                {
+                    "date": 1715562993594,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -11,9 +11,9 @@\n ---\n ## “起”\n > Let's get going Golang!\n \n-[[Golang学习之路]]\n+[[Golang学习之路]\n [[Golang资源集合]]\n [[Golang --- 关键字与标识符]]\n [[Golang --- 常量与变量]]\n [[Golang --- 数据类型]]\n"
+                },
+                {
+                    "date": 1715563049190,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -11,9 +11,9 @@\n ---\n ## “起”\n > Let's get going Golang!\n \n-[[Golang学习之路]\n+[Golang学习之路]({{< relref \"post/Gohh/1.ComputerBasics/CSLanguages/Golang/_index.zh-cn.md\" >}})\n [[Golang资源集合]]\n [[Golang --- 关键字与标识符]]\n [[Golang --- 常量与变量]]\n [[Golang --- 数据类型]]\n"
+                },
+                {
+                    "date": 1715563058090,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -11,9 +11,9 @@\n ---\n ## “起”\n > Let's get going Golang!\n \n-[Golang学习之路]({{< relref \"post/Gohh/1.ComputerBasics/CSLanguages/Golang/_index.zh-cn.md\" >}})\n+[Golang学习之路]({{< relref \"post/Gohh/1.ComputerBasics/CSLanguages/Golang/\" >}})\n [[Golang资源集合]]\n [[Golang --- 关键字与标识符]]\n [[Golang --- 常量与变量]]\n [[Golang --- 数据类型]]\n"
+                },
+                {
+                    "date": 1715563075317,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -11,9 +11,9 @@\n ---\n ## “起”\n > Let's get going Golang!\n \n-[Golang学习之路]({{< relref \"post/Gohh/1.ComputerBasics/CSLanguages/Golang/\" >}})\n+[Golang学习之路]({{< relref \"post/Gohh/1.ComputerBasics/CSLanguages/Golang/\"content/post/Gohh/1.ComputerBasics/CSLanguages/Golang/start/LearningPath/index.zh-cn.md >}})\n [[Golang资源集合]]\n [[Golang --- 关键字与标识符]]\n [[Golang --- 常量与变量]]\n [[Golang --- 数据类型]]\n"
+                },
+                {
+                    "date": 1715563081776,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -11,9 +11,9 @@\n ---\n ## “起”\n > Let's get going Golang!\n \n-[Golang学习之路]({{< relref \"post/Gohh/1.ComputerBasics/CSLanguages/Golang/\"content/post/Gohh/1.ComputerBasics/CSLanguages/Golang/start/LearningPath/index.zh-cn.md >}})\n+[Golang学习之路]({{< relref \"post/Gohh/1.ComputerBasics/CSLanguages/Golang/content/post/Gohh/1.ComputerBasics/CSLanguages/Golang/start/LearningPath/index.zh-cn.md\" >}})\n [[Golang资源集合]]\n [[Golang --- 关键字与标识符]]\n [[Golang --- 常量与变量]]\n [[Golang --- 数据类型]]\n"
+                },
+                {
+                    "date": 1715563094852,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -11,9 +11,9 @@\n ---\n ## “起”\n > Let's get going Golang!\n \n-[Golang学习之路]({{< relref \"post/Gohh/1.ComputerBasics/CSLanguages/Golang/content/post/Gohh/1.ComputerBasics/CSLanguages/Golang/start/LearningPath/index.zh-cn.md\" >}})\n+[Golang学习之路]({{< relref \"post/Gohh/1.ComputerBasics/CSLanguages/Golang/content/post/Gohh/1.ComputerBasics/CSLanguages/Golc/start/LearningPath/index.zh-cn.md\" >}})\n [[Golang资源集合]]\n [[Golang --- 关键字与标识符]]\n [[Golang --- 常量与变量]]\n [[Golang --- 数据类型]]\n"
+                },
+                {
+                    "date": 1715563136840,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -11,9 +11,9 @@\n ---\n ## “起”\n > Let's get going Golang!\n \n-[Golang学习之路]({{< relref \"post/Gohh/1.ComputerBasics/CSLanguages/Golang/content/post/Gohh/1.ComputerBasics/CSLanguages/Golc/start/LearningPath/index.zh-cn.md\" >}})\n+[Golang学习之路]({{< relref \"post/Gohh/1.ComputerBasics/CSLanguages/Golang/start/LearningPath/index.zh-cn.md\" >}})\n [[Golang资源集合]]\n [[Golang --- 关键字与标识符]]\n [[Golang --- 常量与变量]]\n [[Golang --- 数据类型]]\n"
+                },
+                {
+                    "date": 1715563614531,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -11,9 +11,9 @@\n ---\n ## “起”\n > Let's get going Golang!\n \n-[Golang学习之路]({{< relref \"post/Gohh/1.ComputerBasics/CSLanguages/Golang/start/LearningPath/index.zh-cn.md\" >}})\n+[Golang学习之路]({{< relref  >}})\n [[Golang资源集合]]\n [[Golang --- 关键字与标识符]]\n [[Golang --- 常量与变量]]\n [[Golang --- 数据类型]]\n"
+                },
+                {
+                    "date": 1715563621679,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -11,9 +11,9 @@\n ---\n ## “起”\n > Let's get going Golang!\n \n-[Golang学习之路]({{< relref  >}})\n+[Golang学习之路]({{< relref >}})\n [[Golang资源集合]]\n [[Golang --- 关键字与标识符]]\n [[Golang --- 常量与变量]]\n [[Golang --- 数据类型]]\n"
+                },
+                {
+                    "date": 1715563634445,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -11,17 +11,17 @@\n ---\n ## “起”\n > Let's get going Golang!\n \n-[Golang学习之路]({{< relref >}})\n-[[Golang资源集合]]\n-[[Golang --- 关键字与标识符]]\n-[[Golang --- 常量与变量]]\n-[[Golang --- 数据类型]]\n-[[Golang --- 数据类型基础]]\n-[[Golang --- 运算操作符]]\n-[[Golang --- 字符串]]\n-[[Golang --- 包和文件]]\n+[Golang学习之路]({{< relref \"post/Gohh/1.ComputerBasics/CSLanguages/Golang/start/LearningPath/index.zh-cn.md\">}})\n+[[Golang资源集合]]({{< relref \"post/Gohh/1.ComputerBasics/CSLanguages/Golang/start/LearningPath/index.zh-cn.md\">}})\n+[[Golang --- 关键字与标识符]]({{< relref \"post/Gohh/1.ComputerBasics/CSLanguages/Golang/start/LearningPath/index.zh-cn.md\">}})\n+[[Golang --- 常量与变量]]({{< relref \"post/Gohh/1.ComputerBasics/CSLanguages/Golang/start/LearningPath/index.zh-cn.md\">}})\n+[[Golang --- 数据类型]]({{< relref \"post/Gohh/1.ComputerBasics/CSLanguages/Golang/start/LearningPath/index.zh-cn.md\">}})\n+[[Golang --- 数据类型基础]]({{< relref \"post/Gohh/1.ComputerBasics/CSLanguages/Golang/start/LearningPath/index.zh-cn.md\">}})\n+[[Golang --- 运算操作符]]({{< relref \"post/Gohh/1.ComputerBasics/CSLanguages/Golang/start/LearningPath/index.zh-cn.md\">}})\n+[[Golang --- 字符串]]({{< relref \"post/Gohh/1.ComputerBasics/CSLanguages/Golang/start/LearningPath/index.zh-cn.md\">}})\n+[[Golang --- 包和文件]]({{< relref \"post/Gohh/1.ComputerBasics/CSLanguages/Golang/start/LearningPath/index.zh-cn.md\">}})\n \n \n ## “承”\n [[Golang问题集]]\n"
+                },
+                {
+                    "date": 1715563645146,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -12,16 +12,16 @@\n ## “起”\n > Let's get going Golang!\n \n [Golang学习之路]({{< relref \"post/Gohh/1.ComputerBasics/CSLanguages/Golang/start/LearningPath/index.zh-cn.md\">}})\n-[[Golang资源集合]]({{< relref \"post/Gohh/1.ComputerBasics/CSLanguages/Golang/start/LearningPath/index.zh-cn.md\">}})\n-[[Golang --- 关键字与标识符]]({{< relref \"post/Gohh/1.ComputerBasics/CSLanguages/Golang/start/LearningPath/index.zh-cn.md\">}})\n-[[Golang --- 常量与变量]]({{< relref \"post/Gohh/1.ComputerBasics/CSLanguages/Golang/start/LearningPath/index.zh-cn.md\">}})\n-[[Golang --- 数据类型]]({{< relref \"post/Gohh/1.ComputerBasics/CSLanguages/Golang/start/LearningPath/index.zh-cn.md\">}})\n-[[Golang --- 数据类型基础]]({{< relref \"post/Gohh/1.ComputerBasics/CSLanguages/Golang/start/LearningPath/index.zh-cn.md\">}})\n-[[Golang --- 运算操作符]]({{< relref \"post/Gohh/1.ComputerBasics/CSLanguages/Golang/start/LearningPath/index.zh-cn.md\">}})\n-[[Golang --- 字符串]]({{< relref \"post/Gohh/1.ComputerBasics/CSLanguages/Golang/start/LearningPath/index.zh-cn.md\">}})\n-[[Golang --- 包和文件]]({{< relref \"post/Gohh/1.ComputerBasics/CSLanguages/Golang/start/LearningPath/index.zh-cn.md\">}})\n+[Golang资源集合]({{< relref \"post/Gohh/1.ComputerBasics/CSLanguages/Golang/start/LearningPath/index.zh-cn.md\">}})\n+[Golang --- 关键字与标识符]({{< relref \"post/Gohh/1.ComputerBasics/CSLanguages/Golang/start/LearningPath/index.zh-cn.md\">}})\n+[Golang --- 常量与变量]({{< relref \"post/Gohh/1.ComputerBasics/CSLanguages/Golang/start/LearningPath/index.zh-cn.md\">}})\n+[Golang --- 数据类型]({{< relref \"post/Gohh/1.ComputerBasics/CSLanguages/Golang/start/LearningPath/index.zh-cn.md\">}})\n+[Golang --- 数据类型基础]({{< relref \"post/Gohh/1.ComputerBasics/CSLanguages/Golang/start/LearningPath/index.zh-cn.md\">}})\n+[Golang --- 运算操作符]({{< relref \"post/Gohh/1.ComputerBasics/CSLanguages/Golang/start/LearningPath/index.zh-cn.md\">}})\n+[Golang --- 字符串]]({{< relref \"post/Gohh/1.ComputerBasics/CSLanguages/Golang/start/LearningPath/index.zh-cn.md\">}})\n+[Golang --- 包和文件]({{< relref \"post/Gohh/1.ComputerBasics/CSLanguages/Golang/start/LearningPath/index.zh-cn.md\">}})\n \n \n ## “承”\n [[Golang问题集]]\n"
+                },
+                {
+                    "date": 1715563656013,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -13,14 +13,14 @@\n > Let's get going Golang!\n \n [Golang学习之路]({{< relref \"post/Gohh/1.ComputerBasics/CSLanguages/Golang/start/LearningPath/index.zh-cn.md\">}})\n [Golang资源集合]({{< relref \"post/Gohh/1.ComputerBasics/CSLanguages/Golang/start/LearningPath/index.zh-cn.md\">}})\n-[Golang --- 关键字与标识符]({{< relref \"post/Gohh/1.ComputerBasics/CSLanguages/Golang/start/LearningPath/index.zh-cn.md\">}})\n+[关键字与标识符]({{< relref \"post/Gohh/1.ComputerBasics/CSLanguages/Golang/start/LearningPath/index.zh-cn.md\">}})\n [Golang --- 常量与变量]({{< relref \"post/Gohh/1.ComputerBasics/CSLanguages/Golang/start/LearningPath/index.zh-cn.md\">}})\n [Golang --- 数据类型]({{< relref \"post/Gohh/1.ComputerBasics/CSLanguages/Golang/start/LearningPath/index.zh-cn.md\">}})\n [Golang --- 数据类型基础]({{< relref \"post/Gohh/1.ComputerBasics/CSLanguages/Golang/start/LearningPath/index.zh-cn.md\">}})\n [Golang --- 运算操作符]({{< relref \"post/Gohh/1.ComputerBasics/CSLanguages/Golang/start/LearningPath/index.zh-cn.md\">}})\n-[Golang --- 字符串]]({{< relref \"post/Gohh/1.ComputerBasics/CSLanguages/Golang/start/LearningPath/index.zh-cn.md\">}})\n+[Golang --- 字符串]({{< relref \"post/Gohh/1.ComputerBasics/CSLanguages/Golang/start/LearningPath/index.zh-cn.md\">}})\n [Golang --- 包和文件]({{< relref \"post/Gohh/1.ComputerBasics/CSLanguages/Golang/start/LearningPath/index.zh-cn.md\">}})\n \n \n ## “承”\n"
+                },
+                {
+                    "date": 1715563661369,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -14,12 +14,12 @@\n \n [Golang学习之路]({{< relref \"post/Gohh/1.ComputerBasics/CSLanguages/Golang/start/LearningPath/index.zh-cn.md\">}})\n [Golang资源集合]({{< relref \"post/Gohh/1.ComputerBasics/CSLanguages/Golang/start/LearningPath/index.zh-cn.md\">}})\n [关键字与标识符]({{< relref \"post/Gohh/1.ComputerBasics/CSLanguages/Golang/start/LearningPath/index.zh-cn.md\">}})\n-[Golang --- 常量与变量]({{< relref \"post/Gohh/1.ComputerBasics/CSLanguages/Golang/start/LearningPath/index.zh-cn.md\">}})\n-[Golang --- 数据类型]({{< relref \"post/Gohh/1.ComputerBasics/CSLanguages/Golang/start/LearningPath/index.zh-cn.md\">}})\n-[Golang --- 数据类型基础]({{< relref \"post/Gohh/1.ComputerBasics/CSLanguages/Golang/start/LearningPath/index.zh-cn.md\">}})\n-[Golang --- 运算操作符]({{< relref \"post/Gohh/1.ComputerBasics/CSLanguages/Golang/start/LearningPath/index.zh-cn.md\">}})\n+[常量与变量]({{< relref \"post/Gohh/1.ComputerBasics/CSLanguages/Golang/start/LearningPath/index.zh-cn.md\">}})\n+[数据类型]({{< relref \"post/Gohh/1.ComputerBasics/CSLanguages/Golang/start/LearningPath/index.zh-cn.md\">}})\n+[数据类型基础]({{< relref \"post/Gohh/1.ComputerBasics/CSLanguages/Golang/start/LearningPath/index.zh-cn.md\">}})\n+[运算操作符]({{< relref \"post/Gohh/1.ComputerBasics/CSLanguages/Golang/start/LearningPath/index.zh-cn.md\">}})\n [Golang --- 字符串]({{< relref \"post/Gohh/1.ComputerBasics/CSLanguages/Golang/start/LearningPath/index.zh-cn.md\">}})\n [Golang --- 包和文件]({{< relref \"post/Gohh/1.ComputerBasics/CSLanguages/Golang/start/LearningPath/index.zh-cn.md\">}})\n \n \n"
+                },
+                {
+                    "date": 1715563686138,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -12,16 +12,16 @@\n ## “起”\n > Let's get going Golang!\n \n [Golang学习之路]({{< relref \"post/Gohh/1.ComputerBasics/CSLanguages/Golang/start/LearningPath/index.zh-cn.md\">}})\n-[Golang资源集合]({{< relref \"post/Gohh/1.ComputerBasics/CSLanguages/Golang/start/LearningPath/index.zh-cn.md\">}})\n+[Golang资源集合]({{< relref \"post/Gohh/1.ComputerBasics/CSLanguages/Golang/start//index.zh-cn.md\">}})\n [关键字与标识符]({{< relref \"post/Gohh/1.ComputerBasics/CSLanguages/Golang/start/LearningPath/index.zh-cn.md\">}})\n [常量与变量]({{< relref \"post/Gohh/1.ComputerBasics/CSLanguages/Golang/start/LearningPath/index.zh-cn.md\">}})\n [数据类型]({{< relref \"post/Gohh/1.ComputerBasics/CSLanguages/Golang/start/LearningPath/index.zh-cn.md\">}})\n [数据类型基础]({{< relref \"post/Gohh/1.ComputerBasics/CSLanguages/Golang/start/LearningPath/index.zh-cn.md\">}})\n [运算操作符]({{< relref \"post/Gohh/1.ComputerBasics/CSLanguages/Golang/start/LearningPath/index.zh-cn.md\">}})\n-[Golang --- 字符串]({{< relref \"post/Gohh/1.ComputerBasics/CSLanguages/Golang/start/LearningPath/index.zh-cn.md\">}})\n-[Golang --- 包和文件]({{< relref \"post/Gohh/1.ComputerBasics/CSLanguages/Golang/start/LearningPath/index.zh-cn.md\">}})\n+[字符串]({{< relref \"post/Gohh/1.ComputerBasics/CSLanguages/Golang/start/LearningPath/index.zh-cn.md\">}})\n+[包和文件]({{< relref \"post/Gohh/1.ComputerBasics/CSLanguages/Golang/start/LearningPath/index.zh-cn.md\">}})\n \n \n ## “承”\n [[Golang问题集]]\n"
+                },
+                {
+                    "date": 1715563693099,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -12,9 +12,9 @@\n ## “起”\n > Let's get going Golang!\n \n [Golang学习之路]({{< relref \"post/Gohh/1.ComputerBasics/CSLanguages/Golang/start/LearningPath/index.zh-cn.md\">}})\n-[Golang资源集合]({{< relref \"post/Gohh/1.ComputerBasics/CSLanguages/Golang/start//index.zh-cn.md\">}})\n+[Golang资源集合]({{< relref \"post/Gohh/1.ComputerBasics/CSLanguages/Golang/start/Resource/index.zh-cn.md\">}})\n [关键字与标识符]({{< relref \"post/Gohh/1.ComputerBasics/CSLanguages/Golang/start/LearningPath/index.zh-cn.md\">}})\n [常量与变量]({{< relref \"post/Gohh/1.ComputerBasics/CSLanguages/Golang/start/LearningPath/index.zh-cn.md\">}})\n [数据类型]({{< relref \"post/Gohh/1.ComputerBasics/CSLanguages/Golang/start/LearningPath/index.zh-cn.md\">}})\n [数据类型基础]({{< relref \"post/Gohh/1.ComputerBasics/CSLanguages/Golang/start/LearningPath/index.zh-cn.md\">}})\n"
+                },
+                {
+                    "date": 1715563704242,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -13,9 +13,9 @@\n > Let's get going Golang!\n \n [Golang学习之路]({{< relref \"post/Gohh/1.ComputerBasics/CSLanguages/Golang/start/LearningPath/index.zh-cn.md\">}})\n [Golang资源集合]({{< relref \"post/Gohh/1.ComputerBasics/CSLanguages/Golang/start/Resource/index.zh-cn.md\">}})\n-[关键字与标识符]({{< relref \"post/Gohh/1.ComputerBasics/CSLanguages/Golang/start/LearningPath/index.zh-cn.md\">}})\n+<!-- [关键字与标识符]({{< relref \"post/Gohh/1.ComputerBasics/CSLanguages/Golang/start/LearningPath/index.zh-cn.md\">}}) -->\n [常量与变量]({{< relref \"post/Gohh/1.ComputerBasics/CSLanguages/Golang/start/LearningPath/index.zh-cn.md\">}})\n [数据类型]({{< relref \"post/Gohh/1.ComputerBasics/CSLanguages/Golang/start/LearningPath/index.zh-cn.md\">}})\n [数据类型基础]({{< relref \"post/Gohh/1.ComputerBasics/CSLanguages/Golang/start/LearningPath/index.zh-cn.md\">}})\n [运算操作符]({{< relref \"post/Gohh/1.ComputerBasics/CSLanguages/Golang/start/LearningPath/index.zh-cn.md\">}})\n"
+                },
+                {
+                    "date": 1715563710596,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -14,9 +14,9 @@\n \n [Golang学习之路]({{< relref \"post/Gohh/1.ComputerBasics/CSLanguages/Golang/start/LearningPath/index.zh-cn.md\">}})\n [Golang资源集合]({{< relref \"post/Gohh/1.ComputerBasics/CSLanguages/Golang/start/Resource/index.zh-cn.md\">}})\n <!-- [关键字与标识符]({{< relref \"post/Gohh/1.ComputerBasics/CSLanguages/Golang/start/LearningPath/index.zh-cn.md\">}}) -->\n-[常量与变量]({{< relref \"post/Gohh/1.ComputerBasics/CSLanguages/Golang/start/LearningPath/index.zh-cn.md\">}})\n+<!-- [常量与变量]({{< relref \"post/Gohh/1.ComputerBasics/CSLanguages/Golang/start/LearningPath/index.zh-cn.md\">}}) -->\n [数据类型]({{< relref \"post/Gohh/1.ComputerBasics/CSLanguages/Golang/start/LearningPath/index.zh-cn.md\">}})\n [数据类型基础]({{< relref \"post/Gohh/1.ComputerBasics/CSLanguages/Golang/start/LearningPath/index.zh-cn.md\">}})\n [运算操作符]({{< relref \"post/Gohh/1.ComputerBasics/CSLanguages/Golang/start/LearningPath/index.zh-cn.md\">}})\n [字符串]({{< relref \"post/Gohh/1.ComputerBasics/CSLanguages/Golang/start/LearningPath/index.zh-cn.md\">}})\n"
+                },
+                {
+                    "date": 1715563716594,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -15,9 +15,9 @@\n [Golang学习之路]({{< relref \"post/Gohh/1.ComputerBasics/CSLanguages/Golang/start/LearningPath/index.zh-cn.md\">}})\n [Golang资源集合]({{< relref \"post/Gohh/1.ComputerBasics/CSLanguages/Golang/start/Resource/index.zh-cn.md\">}})\n <!-- [关键字与标识符]({{< relref \"post/Gohh/1.ComputerBasics/CSLanguages/Golang/start/LearningPath/index.zh-cn.md\">}}) -->\n <!-- [常量与变量]({{< relref \"post/Gohh/1.ComputerBasics/CSLanguages/Golang/start/LearningPath/index.zh-cn.md\">}}) -->\n-[数据类型]({{< relref \"post/Gohh/1.ComputerBasics/CSLanguages/Golang/start/LearningPath/index.zh-cn.md\">}})\n+[数据类型]({{< relref \"post/Gohh/1.ComputerBasics/CSLanguages/Golang/start//index.zh-cn.md\">}})\n [数据类型基础]({{< relref \"post/Gohh/1.ComputerBasics/CSLanguages/Golang/start/LearningPath/index.zh-cn.md\">}})\n [运算操作符]({{< relref \"post/Gohh/1.ComputerBasics/CSLanguages/Golang/start/LearningPath/index.zh-cn.md\">}})\n [字符串]({{< relref \"post/Gohh/1.ComputerBasics/CSLanguages/Golang/start/LearningPath/index.zh-cn.md\">}})\n [包和文件]({{< relref \"post/Gohh/1.ComputerBasics/CSLanguages/Golang/start/LearningPath/index.zh-cn.md\">}})\n"
+                },
+                {
+                    "date": 1715563730864,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -15,9 +15,9 @@\n [Golang学习之路]({{< relref \"post/Gohh/1.ComputerBasics/CSLanguages/Golang/start/LearningPath/index.zh-cn.md\">}})\n [Golang资源集合]({{< relref \"post/Gohh/1.ComputerBasics/CSLanguages/Golang/start/Resource/index.zh-cn.md\">}})\n <!-- [关键字与标识符]({{< relref \"post/Gohh/1.ComputerBasics/CSLanguages/Golang/start/LearningPath/index.zh-cn.md\">}}) -->\n <!-- [常量与变量]({{< relref \"post/Gohh/1.ComputerBasics/CSLanguages/Golang/start/LearningPath/index.zh-cn.md\">}}) -->\n-[数据类型]({{< relref \"post/Gohh/1.ComputerBasics/CSLanguages/Golang/start//index.zh-cn.md\">}})\n+[数据类型]({{< relref \"post/Gohh/1.ComputerBasics/CSLanguages/Golang/start/Data/index.zh-cn.md\">}})\n [数据类型基础]({{< relref \"post/Gohh/1.ComputerBasics/CSLanguages/Golang/start/LearningPath/index.zh-cn.md\">}})\n [运算操作符]({{< relref \"post/Gohh/1.ComputerBasics/CSLanguages/Golang/start/LearningPath/index.zh-cn.md\">}})\n [字符串]({{< relref \"post/Gohh/1.ComputerBasics/CSLanguages/Golang/start/LearningPath/index.zh-cn.md\">}})\n [包和文件]({{< relref \"post/Gohh/1.ComputerBasics/CSLanguages/Golang/start/LearningPath/index.zh-cn.md\">}})\n"
+                },
+                {
+                    "date": 1715563740334,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -15,10 +15,9 @@\n [Golang学习之路]({{< relref \"post/Gohh/1.ComputerBasics/CSLanguages/Golang/start/LearningPath/index.zh-cn.md\">}})\n [Golang资源集合]({{< relref \"post/Gohh/1.ComputerBasics/CSLanguages/Golang/start/Resource/index.zh-cn.md\">}})\n <!-- [关键字与标识符]({{< relref \"post/Gohh/1.ComputerBasics/CSLanguages/Golang/start/LearningPath/index.zh-cn.md\">}}) -->\n <!-- [常量与变量]({{< relref \"post/Gohh/1.ComputerBasics/CSLanguages/Golang/start/LearningPath/index.zh-cn.md\">}}) -->\n-[数据类型]({{< relref \"post/Gohh/1.ComputerBasics/CSLanguages/Golang/start/Data/index.zh-cn.md\">}})\n-[数据类型基础]({{< relref \"post/Gohh/1.ComputerBasics/CSLanguages/Golang/start/LearningPath/index.zh-cn.md\">}})\n+[数据类型]({{< relref \"post/Gohh/1.ComputerBasics/CSLanguages/Golang/start/DataType/index.zh-cn.md\">}})\n [运算操作符]({{< relref \"post/Gohh/1.ComputerBasics/CSLanguages/Golang/start/LearningPath/index.zh-cn.md\">}})\n [字符串]({{< relref \"post/Gohh/1.ComputerBasics/CSLanguages/Golang/start/LearningPath/index.zh-cn.md\">}})\n [包和文件]({{< relref \"post/Gohh/1.ComputerBasics/CSLanguages/Golang/start/LearningPath/index.zh-cn.md\">}})\n \n"
+                },
+                {
+                    "date": 1715563748620,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -16,10 +16,9 @@\n [Golang资源集合]({{< relref \"post/Gohh/1.ComputerBasics/CSLanguages/Golang/start/Resource/index.zh-cn.md\">}})\n <!-- [关键字与标识符]({{< relref \"post/Gohh/1.ComputerBasics/CSLanguages/Golang/start/LearningPath/index.zh-cn.md\">}}) -->\n <!-- [常量与变量]({{< relref \"post/Gohh/1.ComputerBasics/CSLanguages/Golang/start/LearningPath/index.zh-cn.md\">}}) -->\n [数据类型]({{< relref \"post/Gohh/1.ComputerBasics/CSLanguages/Golang/start/DataType/index.zh-cn.md\">}})\n-[运算操作符]({{< relref \"post/Gohh/1.ComputerBasics/CSLanguages/Golang/start/LearningPath/index.zh-cn.md\">}})\n-[字符串]({{< relref \"post/Gohh/1.ComputerBasics/CSLanguages/Golang/start/LearningPath/index.zh-cn.md\">}})\n+[字符串]({{< relref \"post/Gohh/1.ComputerBasics/CSLanguages/Golang/start/Strings/index.zh-cn.md\">}})\n [包和文件]({{< relref \"post/Gohh/1.ComputerBasics/CSLanguages/Golang/start/LearningPath/index.zh-cn.md\">}})\n \n \n ## “承”\n"
+                },
+                {
+                    "date": 1715563755850,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -17,9 +17,9 @@\n <!-- [关键字与标识符]({{< relref \"post/Gohh/1.ComputerBasics/CSLanguages/Golang/start/LearningPath/index.zh-cn.md\">}}) -->\n <!-- [常量与变量]({{< relref \"post/Gohh/1.ComputerBasics/CSLanguages/Golang/start/LearningPath/index.zh-cn.md\">}}) -->\n [数据类型]({{< relref \"post/Gohh/1.ComputerBasics/CSLanguages/Golang/start/DataType/index.zh-cn.md\">}})\n [字符串]({{< relref \"post/Gohh/1.ComputerBasics/CSLanguages/Golang/start/Strings/index.zh-cn.md\">}})\n-[包和文件]({{< relref \"post/Gohh/1.ComputerBasics/CSLanguages/Golang/start/LearningPath/index.zh-cn.md\">}})\n+[Map]({{< relref \"post/Gohh/1.ComputerBasics/CSLanguages/Golang/start/LearningPath/index.zh-cn.md\">}})\n \n \n ## “承”\n [[Golang问题集]]\n"
+                },
+                {
+                    "date": 1715563762462,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -17,9 +17,9 @@\n <!-- [关键字与标识符]({{< relref \"post/Gohh/1.ComputerBasics/CSLanguages/Golang/start/LearningPath/index.zh-cn.md\">}}) -->\n <!-- [常量与变量]({{< relref \"post/Gohh/1.ComputerBasics/CSLanguages/Golang/start/LearningPath/index.zh-cn.md\">}}) -->\n [数据类型]({{< relref \"post/Gohh/1.ComputerBasics/CSLanguages/Golang/start/DataType/index.zh-cn.md\">}})\n [字符串]({{< relref \"post/Gohh/1.ComputerBasics/CSLanguages/Golang/start/Strings/index.zh-cn.md\">}})\n-[Map]({{< relref \"post/Gohh/1.ComputerBasics/CSLanguages/Golang/start/LearningPath/index.zh-cn.md\">}})\n+[Map]({{< relref \"post/Gohh/1.ComputerBasics/CSLanguages/Golang/start/Map/index.zh-cn.md\">}})\n \n \n ## “承”\n [[Golang问题集]]\n"
+                },
+                {
+                    "date": 1715563900922,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -9,8 +9,9 @@\n weight: -100\n readingTime: true\n ---\n ## “起”\n+>\n > Let's get going Golang!\n \n [Golang学习之路]({{< relref \"post/Gohh/1.ComputerBasics/CSLanguages/Golang/start/LearningPath/index.zh-cn.md\">}})\n [Golang资源集合]({{< relref \"post/Gohh/1.ComputerBasics/CSLanguages/Golang/start/Resource/index.zh-cn.md\">}})\n@@ -21,20 +22,25 @@\n [Map]({{< relref \"post/Gohh/1.ComputerBasics/CSLanguages/Golang/start/Map/index.zh-cn.md\">}})\n \n \n ## “承”\n+\n [[Golang问题集]]\n [[Golang面试集]]\n \n \n ## “转”\n+\n ### 底层实现\n+\n [[GMP 模型]]\n [[GC 垃圾回收]]\n [[Go并发编程]]\n [[make 一个 map 会发生什么]]\n \n ### 源码解读\n+\n [[Go - os package]]\n+\n ## “合”\n \n [[GoReader]]\n"
+                },
+                {
+                    "date": 1715564008983,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -18,17 +18,15 @@\n <!-- [关键字与标识符]({{< relref \"post/Gohh/1.ComputerBasics/CSLanguages/Golang/start/LearningPath/index.zh-cn.md\">}}) -->\n <!-- [常量与变量]({{< relref \"post/Gohh/1.ComputerBasics/CSLanguages/Golang/start/LearningPath/index.zh-cn.md\">}}) -->\n [数据类型]({{< relref \"post/Gohh/1.ComputerBasics/CSLanguages/Golang/start/DataType/index.zh-cn.md\">}})\n [字符串]({{< relref \"post/Gohh/1.ComputerBasics/CSLanguages/Golang/start/Strings/index.zh-cn.md\">}})\n-[Map]({{< relref \"post/Gohh/1.ComputerBasics/CSLanguages/Golang/start/Map/index.zh-cn.md\">}})\n+[Map](post/Gohh/1.ComputerBasics/CSLanguages/Golang/start/Map/index.zh-cn.md\">}})\n \n-\n ## “承”\n \n [[Golang问题集]]\n [[Golang面试集]]\n \n-\n ## “转”\n \n ### 底层实现\n \n"
+                },
+                {
+                    "date": 1715564015986,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -17,10 +17,10 @@\n [Golang资源集合]({{< relref \"post/Gohh/1.ComputerBasics/CSLanguages/Golang/start/Resource/index.zh-cn.md\">}})\n <!-- [关键字与标识符]({{< relref \"post/Gohh/1.ComputerBasics/CSLanguages/Golang/start/LearningPath/index.zh-cn.md\">}}) -->\n <!-- [常量与变量]({{< relref \"post/Gohh/1.ComputerBasics/CSLanguages/Golang/start/LearningPath/index.zh-cn.md\">}}) -->\n [数据类型]({{< relref \"post/Gohh/1.ComputerBasics/CSLanguages/Golang/start/DataType/index.zh-cn.md\">}})\n-[字符串]({{< relref \"post/Gohh/1.ComputerBasics/CSLanguages/Golang/start/Strings/index.zh-cn.md\">}})\n-[Map](post/Gohh/1.ComputerBasics/CSLanguages/Golang/start/Map/index.zh-cn.md\">}})\n+[字符串]({{< relref \"post/Gohh/1.ComputerBasics/CSLanguages/Golang/start/Strings/index.zh-cn.md)\n+[Map](post/Gohh/1.ComputerBasics/CSLanguages/Golang/start/Map/index.zh-cn.md)\n \n ## “承”\n \n [[Golang问题集]]\n"
+                },
+                {
+                    "date": 1715564021163,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -16,10 +16,10 @@\n [Golang学习之路]({{< relref \"post/Gohh/1.ComputerBasics/CSLanguages/Golang/start/LearningPath/index.zh-cn.md\">}})\n [Golang资源集合]({{< relref \"post/Gohh/1.ComputerBasics/CSLanguages/Golang/start/Resource/index.zh-cn.md\">}})\n <!-- [关键字与标识符]({{< relref \"post/Gohh/1.ComputerBasics/CSLanguages/Golang/start/LearningPath/index.zh-cn.md\">}}) -->\n <!-- [常量与变量]({{< relref \"post/Gohh/1.ComputerBasics/CSLanguages/Golang/start/LearningPath/index.zh-cn.md\">}}) -->\n-[数据类型]({{< relref \"post/Gohh/1.ComputerBasics/CSLanguages/Golang/start/DataType/index.zh-cn.md\">}})\n-[字符串]({{< relref \"post/Gohh/1.ComputerBasics/CSLanguages/Golang/start/Strings/index.zh-cn.md)\n+[数据类型]({{< relref \"post/Gohh/1.ComputerBasics/CSLanguages/Golang/start/DataType/index.zh-cn.md)\n+[字符串](post/Gohh/1.ComputerBasics/CSLanguages/Golang/start/Strings/index.zh-cn.md)\n [Map](post/Gohh/1.ComputerBasics/CSLanguages/Golang/start/Map/index.zh-cn.md)\n \n ## “承”\n \n"
+                },
+                {
+                    "date": 1715564029724,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -13,12 +13,12 @@\n >\n > Let's get going Golang!\n \n [Golang学习之路]({{< relref \"post/Gohh/1.ComputerBasics/CSLanguages/Golang/start/LearningPath/index.zh-cn.md\">}})\n-[Golang资源集合]({{< relref \"post/Gohh/1.ComputerBasics/CSLanguages/Golang/start/Resource/index.zh-cn.md\">}})\n+[Golang资源集合](post/Gohh/1.ComputerBasics/CSLanguages/Golang/start/Resource/index.zh-cn.md)\n <!-- [关键字与标识符]({{< relref \"post/Gohh/1.ComputerBasics/CSLanguages/Golang/start/LearningPath/index.zh-cn.md\">}}) -->\n <!-- [常量与变量]({{< relref \"post/Gohh/1.ComputerBasics/CSLanguages/Golang/start/LearningPath/index.zh-cn.md\">}}) -->\n-[数据类型]({{< relref \"post/Gohh/1.ComputerBasics/CSLanguages/Golang/start/DataType/index.zh-cn.md)\n+[数据类型](post/Gohh/1.ComputerBasics/CSLanguages/Golang/start/DataType/index.zh-cn.md)\n [字符串](post/Gohh/1.ComputerBasics/CSLanguages/Golang/start/Strings/index.zh-cn.md)\n [Map](post/Gohh/1.ComputerBasics/CSLanguages/Golang/start/Map/index.zh-cn.md)\n \n ## “承”\n"
+                },
+                {
+                    "date": 1715564035930,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -12,9 +12,9 @@\n ## “起”\n >\n > Let's get going Golang!\n \n-[Golang学习之路]({{< relref \"post/Gohh/1.ComputerBasics/CSLanguages/Golang/start/LearningPath/index.zh-cn.md\">}})\n+[Golang学习之路](post/Gohh/1.ComputerBasics/CSLanguages/Golang/start/LearningPath/index.zh-cn.md)\n [Golang资源集合](post/Gohh/1.ComputerBasics/CSLanguages/Golang/start/Resource/index.zh-cn.md)\n <!-- [关键字与标识符]({{< relref \"post/Gohh/1.ComputerBasics/CSLanguages/Golang/start/LearningPath/index.zh-cn.md\">}}) -->\n <!-- [常量与变量]({{< relref \"post/Gohh/1.ComputerBasics/CSLanguages/Golang/start/LearningPath/index.zh-cn.md\">}}) -->\n [数据类型](post/Gohh/1.ComputerBasics/CSLanguages/Golang/start/DataType/index.zh-cn.md)\n"
+                },
+                {
+                    "date": 1715564045668,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -13,9 +13,11 @@\n >\n > Let's get going Golang!\n \n [Golang学习之路](post/Gohh/1.ComputerBasics/CSLanguages/Golang/start/LearningPath/index.zh-cn.md)\n+\n [Golang资源集合](post/Gohh/1.ComputerBasics/CSLanguages/Golang/start/Resource/index.zh-cn.md)\n+\n <!-- [关键字与标识符]({{< relref \"post/Gohh/1.ComputerBasics/CSLanguages/Golang/start/LearningPath/index.zh-cn.md\">}}) -->\n <!-- [常量与变量]({{< relref \"post/Gohh/1.ComputerBasics/CSLanguages/Golang/start/LearningPath/index.zh-cn.md\">}}) -->\n [数据类型](post/Gohh/1.ComputerBasics/CSLanguages/Golang/start/DataType/index.zh-cn.md)\n [字符串](post/Gohh/1.ComputerBasics/CSLanguages/Golang/start/Strings/index.zh-cn.md)\n"
+                },
+                {
+                    "date": 1715564084603,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -12,9 +12,9 @@\n ## “起”\n >\n > Let's get going Golang!\n \n-[Golang学习之路](post/Gohh/1.ComputerBasics/CSLanguages/Golang/start/LearningPath/index.zh-cn.md)\n+[Golang学习之路](start/LearningPath/index.zh-cn.md)\n \n [Golang资源集合](post/Gohh/1.ComputerBasics/CSLanguages/Golang/start/Resource/index.zh-cn.md)\n \n <!-- [关键字与标识符]({{< relref \"post/Gohh/1.ComputerBasics/CSLanguages/Golang/start/LearningPath/index.zh-cn.md\">}}) -->\n"
+                },
+                {
+                    "date": 1715564090244,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -12,9 +12,9 @@\n ## “起”\n >\n > Let's get going Golang!\n \n-[Golang学习之路](start/LearningPath/index.zh-cn.md)\n+[Golang学习之路](./start/start/LearningPath/index.zh-cn.md)\n \n [Golang资源集合](post/Gohh/1.ComputerBasics/CSLanguages/Golang/start/Resource/index.zh-cn.md)\n \n <!-- [关键字与标识符]({{< relref \"post/Gohh/1.ComputerBasics/CSLanguages/Golang/start/LearningPath/index.zh-cn.md\">}}) -->\n"
+                },
+                {
+                    "date": 1715564096500,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -12,9 +12,9 @@\n ## “起”\n >\n > Let's get going Golang!\n \n-[Golang学习之路](./start/start/LearningPath/index.zh-cn.md)\n+[Golang学习之路](./start/LearningPath/index.zh-cn.mdstart/LearningPath/index.zh-cn.md)\n \n [Golang资源集合](post/Gohh/1.ComputerBasics/CSLanguages/Golang/start/Resource/index.zh-cn.md)\n \n <!-- [关键字与标识符]({{< relref \"post/Gohh/1.ComputerBasics/CSLanguages/Golang/start/LearningPath/index.zh-cn.md\">}}) -->\n"
+                },
+                {
+                    "date": 1715564104593,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -12,11 +12,11 @@\n ## “起”\n >\n > Let's get going Golang!\n \n-[Golang学习之路](./start/LearningPath/index.zh-cn.mdstart/LearningPath/index.zh-cn.md)\n+[Golang学习之路](./start/LearningPath/index.zh-cn.md)\n \n-[Golang资源集合](post/Gohh/1.ComputerBasics/CSLanguages/Golang/start/Resource/index.zh-cn.md)\n+[Golang资源集合](start/Resource/index.zh-cn.md)\n \n <!-- [关键字与标识符]({{< relref \"post/Gohh/1.ComputerBasics/CSLanguages/Golang/start/LearningPath/index.zh-cn.md\">}}) -->\n <!-- [常量与变量]({{< relref \"post/Gohh/1.ComputerBasics/CSLanguages/Golang/start/LearningPath/index.zh-cn.md\">}}) -->\n [数据类型](post/Gohh/1.ComputerBasics/CSLanguages/Golang/start/DataType/index.zh-cn.md)\n"
+                },
+                {
+                    "date": 1715564111780,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -18,11 +18,11 @@\n [Golang资源集合](start/Resource/index.zh-cn.md)\n \n <!-- [关键字与标识符]({{< relref \"post/Gohh/1.ComputerBasics/CSLanguages/Golang/start/LearningPath/index.zh-cn.md\">}}) -->\n <!-- [常量与变量]({{< relref \"post/Gohh/1.ComputerBasics/CSLanguages/Golang/start/LearningPath/index.zh-cn.md\">}}) -->\n-[数据类型](post/Gohh/1.ComputerBasics/CSLanguages/Golang/start/DataType/index.zh-cn.md)\n-[字符串](post/Gohh/1.ComputerBasics/CSLanguages/Golang/start/Strings/index.zh-cn.md)\n-[Map](post/Gohh/1.ComputerBasics/CSLanguages/Golang/start/Map/index.zh-cn.md)\n+[数据类型](start/DataType/index.zh-cn.md)\n+[字符串](start/Strings/index.zh-cn.md)\n+[Map](start/Map/index.zh-cn.md)\n \n ## “承”\n \n [[Golang问题集]]\n"
+                },
+                {
+                    "date": 1715564126148,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -14,9 +14,9 @@\n > Let's get going Golang!\n \n [Golang学习之路](./start/LearningPath/index.zh-cn.md)\n \n-[Golang资源集合](start/Resource/index.zh-cn.md)\n+[Golang资源集合](./start/Resource/index.zh-cn.md)\n \n <!-- [关键字与标识符]({{< relref \"post/Gohh/1.ComputerBasics/CSLanguages/Golang/start/LearningPath/index.zh-cn.md\">}}) -->\n <!-- [常量与变量]({{< relref \"post/Gohh/1.ComputerBasics/CSLanguages/Golang/start/LearningPath/index.zh-cn.md\">}}) -->\n [数据类型](start/DataType/index.zh-cn.md)\n"
+                },
+                {
+                    "date": 1715564134297,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -18,16 +18,16 @@\n [Golang资源集合](./start/Resource/index.zh-cn.md)\n \n <!-- [关键字与标识符]({{< relref \"post/Gohh/1.ComputerBasics/CSLanguages/Golang/start/LearningPath/index.zh-cn.md\">}}) -->\n <!-- [常量与变量]({{< relref \"post/Gohh/1.ComputerBasics/CSLanguages/Golang/start/LearningPath/index.zh-cn.md\">}}) -->\n-[数据类型](start/DataType/index.zh-cn.md)\n-[字符串](start/Strings/index.zh-cn.md)\n-[Map](start/Map/index.zh-cn.md)\n+[数据类型](./start/DataType/index.zh-cn.md)\n+[字符串](./start/Strings/index.zh-cn.md)\n+[Map](./start/Map/index.zh-cn.md)\n \n ## “承”\n \n-[[Golang问题集]]\n-[[Golang面试集]]\n+[Golang问题集]\n+[Golang面试集]\n \n ## “转”\n \n ### 底层实现\n"
+                },
+                {
+                    "date": 1715564146089,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -24,9 +24,9 @@\n [Map](./start/Map/index.zh-cn.md)\n \n ## “承”\n \n-[Golang问题集]\n+[Golang问题集](./development/)\n [Golang面试集]\n \n ## “转”\n \n"
+                },
+                {
+                    "date": 1715564151850,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -24,10 +24,10 @@\n [Map](./start/Map/index.zh-cn.md)\n \n ## “承”\n \n-[Golang问题集](./development/)\n-[Golang面试集]\n+[Golang问题集](./development/Problem/index.zh-cn.md)\n+[Golang面试集](./)\n \n ## “转”\n \n ### 底层实现\n"
+                },
+                {
+                    "date": 1715564157618,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -25,9 +25,9 @@\n \n ## “承”\n \n [Golang问题集](./development/Problem/index.zh-cn.md)\n-[Golang面试集](./)\n+[Golang面试集](./development/InterviewQuestions/index.zh-cn.md)\n \n ## “转”\n \n ### 底层实现\n"
+                },
+                {
+                    "date": 1715564165005,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -31,12 +31,12 @@\n ## “转”\n \n ### 底层实现\n \n-[[GMP 模型]]\n-[[GC 垃圾回收]]\n-[[Go并发编程]]\n-[[make 一个 map 会发生什么]]\n+[GMP 模型]\n+[GC 垃圾回收]\n+[Go并发编程]\n+[make 一个 map 会发生什么]\n \n ### 源码解读\n \n [[Go - os package]]\n"
+                },
+                {
+                    "date": 1715564173644,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -31,9 +31,9 @@\n ## “转”\n \n ### 底层实现\n \n-[GMP 模型]\n+[GMP 模型](./)\n [GC 垃圾回收]\n [Go并发编程]\n [make 一个 map 会发生什么]\n \n"
+                },
+                {
+                    "date": 1715564179622,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -31,9 +31,9 @@\n ## “转”\n \n ### 底层实现\n \n-[GMP 模型](./)\n+[GMP 模型](./transition/GMP_Model/index.zh-cn.md)\n [GC 垃圾回收]\n [Go并发编程]\n [make 一个 map 会发生什么]\n \n"
+                },
+                {
+                    "date": 1715564185263,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -32,9 +32,9 @@\n \n ### 底层实现\n \n [GMP 模型](./transition/GMP_Model/index.zh-cn.md)\n-[GC 垃圾回收]\n+[GC 垃圾回收](./transition/)\n [Go并发编程]\n [make 一个 map 会发生什么]\n \n ### 源码解读\n"
+                },
+                {
+                    "date": 1715564191505,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -32,10 +32,10 @@\n \n ### 底层实现\n \n [GMP 模型](./transition/GMP_Model/index.zh-cn.md)\n-[GC 垃圾回收](./transition/)\n-[Go并发编程]\n+[GC 垃圾回收](./transition/GC/index.zh-cn.md)\n+[Go并发编程](./)\n [make 一个 map 会发生什么]\n \n ### 源码解读\n \n"
+                },
+                {
+                    "date": 1715564197854,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -33,9 +33,9 @@\n ### 底层实现\n \n [GMP 模型](./transition/GMP_Model/index.zh-cn.md)\n [GC 垃圾回收](./transition/GC/index.zh-cn.md)\n-[Go并发编程](./)\n+[Go并发编程](./transition/Concurrency/index.zh-cn.md)\n [make 一个 map 会发生什么]\n \n ### 源码解读\n \n"
+                },
+                {
+                    "date": 1715564203438,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -34,9 +34,9 @@\n \n [GMP 模型](./transition/GMP_Model/index.zh-cn.md)\n [GC 垃圾回收](./transition/GC/index.zh-cn.md)\n [Go并发编程](./transition/Concurrency/index.zh-cn.md)\n-[make 一个 map 会发生什么]\n+[make一个map 会发生什么]\n \n ### 源码解读\n \n [[Go - os package]]\n"
+                },
+                {
+                    "date": 1715564208990,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -34,9 +34,9 @@\n \n [GMP 模型](./transition/GMP_Model/index.zh-cn.md)\n [GC 垃圾回收](./transition/GC/index.zh-cn.md)\n [Go并发编程](./transition/Concurrency/index.zh-cn.md)\n-[make一个map 会发生什么]\n+[make一个map会发生什么](./)\n \n ### 源码解读\n \n [[Go - os package]]\n"
+                },
+                {
+                    "date": 1715564219245,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -34,13 +34,13 @@\n \n [GMP 模型](./transition/GMP_Model/index.zh-cn.md)\n [GC 垃圾回收](./transition/GC/index.zh-cn.md)\n [Go并发编程](./transition/Concurrency/index.zh-cn.md)\n-[make一个map会发生什么](./)\n+[make一个map会发生什么](./transition/Map/index.zh-cn.md)\n \n ### 源码解读\n \n-[[Go - os package]]\n+[Go - os package]\n \n ## “合”\n \n-[[GoReader]]\n+[GoReader]\n"
+                },
+                {
+                    "date": 1715564226811,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -38,9 +38,9 @@\n [make一个map会发生什么](./transition/Map/index.zh-cn.md)\n \n ### 源码解读\n \n-[Go - os package]\n+<!-- [Go-ospackage] -->\n \n ## “合”\n \n [GoReader]\n"
+                },
+                {
+                    "date": 1715564359558,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -15,11 +15,8 @@\n \n [Golang学习之路](./start/LearningPath/index.zh-cn.md)\n \n [Golang资源集合](./start/Resource/index.zh-cn.md)\n-\n-<!-- [关键字与标识符]({{< relref \"post/Gohh/1.ComputerBasics/CSLanguages/Golang/start/LearningPath/index.zh-cn.md\">}}) -->\n-<!-- [常量与变量]({{< relref \"post/Gohh/1.ComputerBasics/CSLanguages/Golang/start/LearningPath/index.zh-cn.md\">}}) -->\n [数据类型](./start/DataType/index.zh-cn.md)\n [字符串](./start/Strings/index.zh-cn.md)\n [Map](./start/Map/index.zh-cn.md)\n \n@@ -42,5 +39,5 @@\n <!-- [Go-ospackage] -->\n \n ## “合”\n \n-[GoReader]\n+<!-- [GoReader] -->\n"
+                },
+                {
+                    "date": 1715564364775,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -15,10 +15,13 @@\n \n [Golang学习之路](./start/LearningPath/index.zh-cn.md)\n \n [Golang资源集合](./start/Resource/index.zh-cn.md)\n+\n [数据类型](./start/DataType/index.zh-cn.md)\n+\n [字符串](./start/Strings/index.zh-cn.md)\n+\n [Map](./start/Map/index.zh-cn.md)\n \n ## “承”\n \n"
+                },
+                {
+                    "date": 1715564370487,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -25,8 +25,9 @@\n \n ## “承”\n \n [Golang问题集](./development/Problem/index.zh-cn.md)\n+\n [Golang面试集](./development/InterviewQuestions/index.zh-cn.md)\n \n ## “转”\n \n"
+                },
+                {
+                    "date": 1715564539765,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -22,8 +22,14 @@\n [字符串](./start/Strings/index.zh-cn.md)\n \n [Map](./start/Map/index.zh-cn.md)\n \n+[Golang学习之路]({{< relref \"post/Gohh/1.ComputerBasics/CSLanguages/Golang/start/LearningPath/index.zh-cn.md\" >}})\n+[Golang资源集合]({{< relref \"post/Gohh/1.ComputerBasics/CSLanguages/Golang/start/Resource/index.zh-cn.md\" >}})\n+[数据类型]({{< relref \"post/Gohh/1.ComputerBasics/CSLanguages/Golang/start/DataType/index.zh-cn.md\" >}})\n+[字符串]({{< relref \"post/Gohh/1.ComputerBasics/CSLanguages/Golang/start/Strings/index.zh-cn.md\" >}})\n+[Map]({{< relref \"post/Gohh/1.ComputerBasics/CSLanguages/Golang/start/Map/index.zh-cn.md\" >}})\n+\n ## “承”\n \n [Golang问题集](./development/Problem/index.zh-cn.md)\n \n@@ -33,10 +39,13 @@\n \n ### 底层实现\n \n [GMP 模型](./transition/GMP_Model/index.zh-cn.md)\n+\n [GC 垃圾回收](./transition/GC/index.zh-cn.md)\n+\n [Go并发编程](./transition/Concurrency/index.zh-cn.md)\n+\n [make一个map会发生什么](./transition/Map/index.zh-cn.md)\n \n ### 源码解读\n \n"
+                },
+                {
+                    "date": 1715564571959,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -22,9 +22,9 @@\n [字符串](./start/Strings/index.zh-cn.md)\n \n [Map](./start/Map/index.zh-cn.md)\n \n-[Golang学习之路]({{< relref \"post/Gohh/1.ComputerBasics/CSLanguages/Golang/start/LearningPath/index.zh-cn.md\" >}})\n+[Golang学习之路]({{< relref \"Gohh/1.ComputerBasics/CSLanguages/Golang/start/LearningPath/index.zh-cn.md\" >}})\n [Golang资源集合]({{< relref \"post/Gohh/1.ComputerBasics/CSLanguages/Golang/start/Resource/index.zh-cn.md\" >}})\n [数据类型]({{< relref \"post/Gohh/1.ComputerBasics/CSLanguages/Golang/start/DataType/index.zh-cn.md\" >}})\n [字符串]({{< relref \"post/Gohh/1.ComputerBasics/CSLanguages/Golang/start/Strings/index.zh-cn.md\" >}})\n [Map]({{< relref \"post/Gohh/1.ComputerBasics/CSLanguages/Golang/start/Map/index.zh-cn.md\" >}})\n"
+                },
+                {
+                    "date": 1715564577328,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -23,12 +23,12 @@\n \n [Map](./start/Map/index.zh-cn.md)\n \n [Golang学习之路]({{< relref \"Gohh/1.ComputerBasics/CSLanguages/Golang/start/LearningPath/index.zh-cn.md\" >}})\n-[Golang资源集合]({{< relref \"post/Gohh/1.ComputerBasics/CSLanguages/Golang/start/Resource/index.zh-cn.md\" >}})\n+<!-- [Golang资源集合]({{< relref \"post/Gohh/1.ComputerBasics/CSLanguages/Golang/start/Resource/index.zh-cn.md\" >}})\n [数据类型]({{< relref \"post/Gohh/1.ComputerBasics/CSLanguages/Golang/start/DataType/index.zh-cn.md\" >}})\n [字符串]({{< relref \"post/Gohh/1.ComputerBasics/CSLanguages/Golang/start/Strings/index.zh-cn.md\" >}})\n-[Map]({{< relref \"post/Gohh/1.ComputerBasics/CSLanguages/Golang/start/Map/index.zh-cn.md\" >}})\n+[Map]({{< relref \"post/Gohh/1.ComputerBasics/CSLanguages/Golang/start/Map/index.zh-cn.md\" >}}) -->\n \n ## “承”\n \n [Golang问题集](./development/Problem/index.zh-cn.md)\n"
+                },
+                {
+                    "date": 1715564631974,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -23,12 +23,12 @@\n \n [Map](./start/Map/index.zh-cn.md)\n \n [Golang学习之路]({{< relref \"Gohh/1.ComputerBasics/CSLanguages/Golang/start/LearningPath/index.zh-cn.md\" >}})\n-<!-- [Golang资源集合]({{< relref \"post/Gohh/1.ComputerBasics/CSLanguages/Golang/start/Resource/index.zh-cn.md\" >}})\n+[Golang资源集合]({{< relref \"post/Gohh/1.ComputerBasics/CSLanguages/Golang/start/Resource/index.zh-cn.md\" >}})\n [数据类型]({{< relref \"post/Gohh/1.ComputerBasics/CSLanguages/Golang/start/DataType/index.zh-cn.md\" >}})\n [字符串]({{< relref \"post/Gohh/1.ComputerBasics/CSLanguages/Golang/start/Strings/index.zh-cn.md\" >}})\n-[Map]({{< relref \"post/Gohh/1.ComputerBasics/CSLanguages/Golang/start/Map/index.zh-cn.md\" >}}) -->\n+[Map]({{< relref \"post/Gohh/1.ComputerBasics/CSLanguages/Golang/start/Map/index.zh-cn.md\" >}})\n \n ## “承”\n \n [Golang问题集](./development/Problem/index.zh-cn.md)\n"
+                },
+                {
+                    "date": 1715564639484,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -23,9 +23,9 @@\n \n [Map](./start/Map/index.zh-cn.md)\n \n [Golang学习之路]({{< relref \"Gohh/1.ComputerBasics/CSLanguages/Golang/start/LearningPath/index.zh-cn.md\" >}})\n-[Golang资源集合]({{< relref \"post/Gohh/1.ComputerBasics/CSLanguages/Golang/start/Resource/index.zh-cn.md\" >}})\n+[Golang资源集合]({{< relref \"content/post/Gohh/1.ComputerBasics/CSLanguages/Golang/start/Resource/index.zh-cn.md\" >}})\n [数据类型]({{< relref \"post/Gohh/1.ComputerBasics/CSLanguages/Golang/start/DataType/index.zh-cn.md\" >}})\n [字符串]({{< relref \"post/Gohh/1.ComputerBasics/CSLanguages/Golang/start/Strings/index.zh-cn.md\" >}})\n [Map]({{< relref \"post/Gohh/1.ComputerBasics/CSLanguages/Golang/start/Map/index.zh-cn.md\" >}})\n \n"
+                },
+                {
+                    "date": 1715564645488,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -22,9 +22,9 @@\n [字符串](./start/Strings/index.zh-cn.md)\n \n [Map](./start/Map/index.zh-cn.md)\n \n-[Golang学习之路]({{< relref \"Gohh/1.ComputerBasics/CSLanguages/Golang/start/LearningPath/index.zh-cn.md\" >}})\n+[Golang学习之路]({{< relref \"content/post/Gohh/1.ComputerBasics/CSLanguages/Golang/start/LearningPath/index.zh-cn.md\" >}})\n [Golang资源集合]({{< relref \"content/post/Gohh/1.ComputerBasics/CSLanguages/Golang/start/Resource/index.zh-cn.md\" >}})\n [数据类型]({{< relref \"post/Gohh/1.ComputerBasics/CSLanguages/Golang/start/DataType/index.zh-cn.md\" >}})\n [字符串]({{< relref \"post/Gohh/1.ComputerBasics/CSLanguages/Golang/start/Strings/index.zh-cn.md\" >}})\n [Map]({{< relref \"post/Gohh/1.ComputerBasics/CSLanguages/Golang/start/Map/index.zh-cn.md\" >}})\n"
+                },
+                {
+                    "date": 1715564718884,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -22,13 +22,13 @@\n [字符串](./start/Strings/index.zh-cn.md)\n \n [Map](./start/Map/index.zh-cn.md)\n \n-[Golang学习之路]({{< relref \"content/post/Gohh/1.ComputerBasics/CSLanguages/Golang/start/LearningPath/index.zh-cn.md\" >}})\n+[Golang学习之路]({{< relref \"/post/Gohh/1.ComputerBasics/CSLanguages/Golang/start/LearningPath/index.zh-cn.md\" >}})\n [Golang资源集合]({{< relref \"content/post/Gohh/1.ComputerBasics/CSLanguages/Golang/start/Resource/index.zh-cn.md\" >}})\n-[数据类型]({{< relref \"post/Gohh/1.ComputerBasics/CSLanguages/Golang/start/DataType/index.zh-cn.md\" >}})\n-[字符串]({{< relref \"post/Gohh/1.ComputerBasics/CSLanguages/Golang/start/Strings/index.zh-cn.md\" >}})\n-[Map]({{< relref \"post/Gohh/1.ComputerBasics/CSLanguages/Golang/start/Map/index.zh-cn.md\" >}})\n+[数据类型]({{< relref \"content/post/Gohh/1.ComputerBasics/CSLanguages/Golang/start/DataType/index.zh-cn.md\" >}})\n+[字符串]({{< relref \"content/post/Gohh/1.ComputerBasics/CSLanguages/Golang/start/Strings/index.zh-cn.md\" >}})\n+[Map]({{< relref \"content/post/Gohh/1.ComputerBasics/CSLanguages/Golang/start/Map/index.zh-cn.md\" >}})\n \n ## “承”\n \n [Golang问题集](./development/Problem/index.zh-cn.md)\n"
+                },
+                {
+                    "date": 1715564724016,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -23,11 +23,11 @@\n \n [Map](./start/Map/index.zh-cn.md)\n \n [Golang学习之路]({{< relref \"/post/Gohh/1.ComputerBasics/CSLanguages/Golang/start/LearningPath/index.zh-cn.md\" >}})\n-[Golang资源集合]({{< relref \"content/post/Gohh/1.ComputerBasics/CSLanguages/Golang/start/Resource/index.zh-cn.md\" >}})\n-[数据类型]({{< relref \"content/post/Gohh/1.ComputerBasics/CSLanguages/Golang/start/DataType/index.zh-cn.md\" >}})\n-[字符串]({{< relref \"content/post/Gohh/1.ComputerBasics/CSLanguages/Golang/start/Strings/index.zh-cn.md\" >}})\n+[Golang资源集合]({{< relref \"/post/Gohh/1.ComputerBasics/CSLanguages/Golang/start/Resource/index.zh-cn.md\" >}})\n+[数据类型]({{< relref \"/post/Gohh/1.ComputerBasics/CSLanguages/Golang/start/DataType/index.zh-cn.md\" >}})\n+[字符串]({{< relref /post/Gohh/1.ComputerBasics/CSLanguages/Golang/start/Strings/index.zh-cn.md\" >}})\n [Map]({{< relref \"content/post/Gohh/1.ComputerBasics/CSLanguages/Golang/start/Map/index.zh-cn.md\" >}})\n \n ## “承”\n \n"
+                },
+                {
+                    "date": 1715564732606,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -23,13 +23,10 @@\n \n [Map](./start/Map/index.zh-cn.md)\n \n [Golang学习之路]({{< relref \"/post/Gohh/1.ComputerBasics/CSLanguages/Golang/start/LearningPath/index.zh-cn.md\" >}})\n-[Golang资源集合]({{< relref \"/post/Gohh/1.ComputerBasics/CSLanguages/Golang/start/Resource/index.zh-cn.md\" >}})\n-[数据类型]({{< relref \"/post/Gohh/1.ComputerBasics/CSLanguages/Golang/start/DataType/index.zh-cn.md\" >}})\n-[字符串]({{< relref /post/Gohh/1.ComputerBasics/CSLanguages/Golang/start/Strings/index.zh-cn.md\" >}})\n-[Map]({{< relref \"content/post/Gohh/1.ComputerBasics/CSLanguages/Golang/start/Map/index.zh-cn.md\" >}})\n \n+\n ## “承”\n \n [Golang问题集](./development/Problem/index.zh-cn.md)\n \n"
+                },
+                {
+                    "date": 1715564742080,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -22,9 +22,9 @@\n [字符串](./start/Strings/index.zh-cn.md)\n \n [Map](./start/Map/index.zh-cn.md)\n \n-[Golang学习之路]({{< relref \"/post/Gohh/1.ComputerBasics/CSLanguages/Golang/start/LearningPath/index.zh-cn.md\" >}})\n+[Golang学习之路]({{< relref \"/posts/Gohh/1.ComputerBasics/CSLanguages/Golang/start/LearningPath/index.zh-cn.md\" >}})\n \n \n ## “承”\n \n"
+                },
+                {
+                    "date": 1715564782246,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -22,9 +22,9 @@\n [字符串](./start/Strings/index.zh-cn.md)\n \n [Map](./start/Map/index.zh-cn.md)\n \n-[Golang学习之路]({{< relref \"/posts/Gohh/1.ComputerBasics/CSLanguages/Golang/start/LearningPath/index.zh-cn.md\" >}})\n+[Golang学习之路]({{< relref \"/Gohh/1.ComputerBasics/CSLanguages/Golang/start/LearningPath/index.zh-cn.md\" >}})\n \n \n ## “承”\n \n"
+                },
+                {
+                    "date": 1715564788506,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -22,9 +22,9 @@\n [字符串](./start/Strings/index.zh-cn.md)\n \n [Map](./start/Map/index.zh-cn.md)\n \n-[Golang学习之路]({{< relref \"/Gohh/1.ComputerBasics/CSLanguages/Golang/start/LearningPath/index.zh-cn.md\" >}})\n+[Golang学习之路]({{< relref \"Gohh/1.ComputerBasics/CSLanguages/Golang/start/LearningPath/index.zh-cn.md\" >}})\n \n \n ## “承”\n \n"
+                },
+                {
+                    "date": 1715564803383,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -22,9 +22,9 @@\n [字符串](./start/Strings/index.zh-cn.md)\n \n [Map](./start/Map/index.zh-cn.md)\n \n-[Golang学习之路]({{< relref \"Gohh/1.ComputerBasics/CSLanguages/Golang/start/LearningPath/index.zh-cn.md\" >}})\n+[Golang学习之路]({{< relref \"content/post/Gohh/1.ComputerBasics/CSLanguages/Golang/start/LearningPath/index.zh-cn.md\" >}})\n \n \n ## “承”\n \n"
+                },
+                {
+                    "date": 1715564814377,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -23,10 +23,10 @@\n \n [Map](./start/Map/index.zh-cn.md)\n \n [Golang学习之路]({{< relref \"content/post/Gohh/1.ComputerBasics/CSLanguages/Golang/start/LearningPath/index.zh-cn.md\" >}})\n+https://github.com/FeiNiaoBF/HiBlog/blob/main/YBlog/content/post/Gohh/1.ComputerBasics/CSLanguages/Golang/start/LearningPath/index.zh-cn.md\n \n-\n ## “承”\n \n [Golang问题集](./development/Problem/index.zh-cn.md)\n \n"
+                },
+                {
+                    "date": 1715564819897,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -23,10 +23,10 @@\n \n [Map](./start/Map/index.zh-cn.md)\n \n [Golang学习之路]({{< relref \"content/post/Gohh/1.ComputerBasics/CSLanguages/Golang/start/LearningPath/index.zh-cn.md\" >}})\n+\n https://github.com/FeiNiaoBF/HiBlog/blob/main/YBlog/content/post/Gohh/1.ComputerBasics/CSLanguages/Golang/start/LearningPath/index.zh-cn.md\n-\n ## “承”\n \n [Golang问题集](./development/Problem/index.zh-cn.md)\n \n"
+                },
+                {
+                    "date": 1715564825197,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -24,9 +24,9 @@\n [Map](./start/Map/index.zh-cn.md)\n \n [Golang学习之路]({{< relref \"content/post/Gohh/1.ComputerBasics/CSLanguages/Golang/start/LearningPath/index.zh-cn.md\" >}})\n \n-https://github.com/FeiNiaoBF/HiBlog/blob/main/YBlog/content/post/Gohh/1.ComputerBasics/CSLanguages/Golang/start/LearningPath/index.zh-cn.md\n+\n ## “承”\n \n [Golang问题集](./development/Problem/index.zh-cn.md)\n \n"
+                },
+                {
+                    "date": 1715564888299,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -22,9 +22,9 @@\n [字符串](./start/Strings/index.zh-cn.md)\n \n [Map](./start/Map/index.zh-cn.md)\n \n-[Golang学习之路]({{< relref \"content/post/Gohh/1.ComputerBasics/CSLanguages/Golang/start/LearningPath/index.zh-cn.md\" >}})\n+[Golang学习之路]({{< ref \"content/post/Gohh/1.ComputerBasics/CSLanguages/Golang/start/LearningPath/index.zh-cn.md\" >}})\n \n \n ## “承”\n \n"
+                },
+                {
+                    "date": 1715564924158,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -22,9 +22,9 @@\n [字符串](./start/Strings/index.zh-cn.md)\n \n [Map](./start/Map/index.zh-cn.md)\n \n-[Golang学习之路]({{< ref \"content/post/Gohh/1.ComputerBasics/CSLanguages/Golang/start/LearningPath/index.zh-cn.md\" >}})\n+[Golang学习之路]({{< ref \"post/Gohh/1.ComputerBasics/CSLanguages/Golang/start/LearningPath/index.zh-cn.md\" >}})\n \n \n ## “承”\n \n"
+                },
+                {
+                    "date": 1715564932658,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -22,9 +22,9 @@\n [字符串](./start/Strings/index.zh-cn.md)\n \n [Map](./start/Map/index.zh-cn.md)\n \n-[Golang学习之路]({{< ref \"post/Gohh/1.ComputerBasics/CSLanguages/Golang/start/LearningPath/index.zh-cn.md\" >}})\n+[Golang学习之路]({{< ref \"/contentpost/Gohh/1.ComputerBasics/CSLanguages/Golang/start/LearningPath/index.zh-cn.md\" >}})\n \n \n ## “承”\n \n"
+                },
+                {
+                    "date": 1715564941668,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -22,9 +22,9 @@\n [字符串](./start/Strings/index.zh-cn.md)\n \n [Map](./start/Map/index.zh-cn.md)\n \n-[Golang学习之路]({{< ref \"/contentpost/Gohh/1.ComputerBasics/CSLanguages/Golang/start/LearningPath/index.zh-cn.md\" >}})\n+[Golang学习之路]({{< ref \"/\" >}})\n \n \n ## “承”\n \n"
+                },
+                {
+                    "date": 1715564950858,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -22,9 +22,9 @@\n [字符串](./start/Strings/index.zh-cn.md)\n \n [Map](./start/Map/index.zh-cn.md)\n \n-[Golang学习之路]({{< ref \"/\" >}})\n+[Golang学习之路]({{< ref \"/content/post/\" >}})\n \n \n ## “承”\n \n"
+                },
+                {
+                    "date": 1715564957278,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -22,9 +22,9 @@\n [字符串](./start/Strings/index.zh-cn.md)\n \n [Map](./start/Map/index.zh-cn.md)\n \n-[Golang学习之路]({{< ref \"/content/post/\" >}})\n+[Golang学习之路]({{< ref \"/content/post/Gohh/\" >}})\n \n \n ## “承”\n \n"
+                },
+                {
+                    "date": 1715564971359,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -22,9 +22,9 @@\n [字符串](./start/Strings/index.zh-cn.md)\n \n [Map](./start/Map/index.zh-cn.md)\n \n-[Golang学习之路]({{< ref \"/content/post/Gohh/\" >}})\n+[Golang学习之路]({{< ref \"/content/post/Gohh/1.ComputerBasics/CSLanguages/\" >}})\n \n \n ## “承”\n \n"
+                },
+                {
+                    "date": 1715564977809,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -22,9 +22,9 @@\n [字符串](./start/Strings/index.zh-cn.md)\n \n [Map](./start/Map/index.zh-cn.md)\n \n-[Golang学习之路]({{< ref \"/content/post/Gohh/1.ComputerBasics/CSLanguages/\" >}})\n+[Golang学习之路]({{< ref \"/content/post/Gohh/1.ComputerBasics/CSLanguages/Golang/start\" >}})\n \n \n ## “承”\n \n"
+                },
+                {
+                    "date": 1715564984433,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -22,9 +22,9 @@\n [字符串](./start/Strings/index.zh-cn.md)\n \n [Map](./start/Map/index.zh-cn.md)\n \n-[Golang学习之路]({{< ref \"/content/post/Gohh/1.ComputerBasics/CSLanguages/Golang/start\" >}})\n+[Golang学习之路]({{< ref \"/content/post/Gohh/1.ComputerBasics/CSLanguages/Golang/start/LearningPath/index.zh-cn.md\" >}})\n \n \n ## “承”\n \n"
+                },
+                {
+                    "date": 1715565119790,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -22,9 +22,9 @@\n [字符串](./start/Strings/index.zh-cn.md)\n \n [Map](./start/Map/index.zh-cn.md)\n \n-[Golang学习之路]({{< ref \"/content/post/Gohh/1.ComputerBasics/CSLanguages/Golang/start/LearningPath/index.zh-cn.md\" >}})\n+[Golang学习之路]({{< ref \"post/Gohh/1.ComputerBasics/CSLanguages/Golang/start/LearningPath/index.zh-cn.md\" >}})\n \n \n ## “承”\n \n"
+                },
+                {
+                    "date": 1715565132413,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -22,9 +22,9 @@\n [字符串](./start/Strings/index.zh-cn.md)\n \n [Map](./start/Map/index.zh-cn.md)\n \n-[Golang学习之路]({{< ref \"post/Gohh/1.ComputerBasics/CSLanguages/Golang/start/LearningPath/index.zh-cn.md\" >}})\n+[Golang学习之路]({{< refre \"/post/Gohh/1.ComputerBasics/CSLanguages/Golang/start/LearningPath/index.zh-cn.md\" >}})\n \n \n ## “承”\n \n"
+                },
+                {
+                    "date": 1715565141418,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -22,9 +22,9 @@\n [字符串](./start/Strings/index.zh-cn.md)\n \n [Map](./start/Map/index.zh-cn.md)\n \n-[Golang学习之路]({{< refre \"/post/Gohh/1.ComputerBasics/CSLanguages/Golang/start/LearningPath/index.zh-cn.md\" >}})\n+[Golang学习之路]()\n \n \n ## “承”\n \n"
+                },
+                {
+                    "date": 1715565147025,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -22,9 +22,9 @@\n [字符串](./start/Strings/index.zh-cn.md)\n \n [Map](./start/Map/index.zh-cn.md)\n \n-[Golang学习之路]()\n+[Golang学习之路]({})\n \n \n ## “承”\n \n"
+                },
+                {
+                    "date": 1715565157219,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -22,9 +22,9 @@\n [字符串](./start/Strings/index.zh-cn.md)\n \n [Map](./start/Map/index.zh-cn.md)\n \n-[Golang学习之路]({})\n+[Golang学习之路]({{< re>}})\n \n \n ## “承”\n \n"
+                },
+                {
+                    "date": 1715565163698,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -22,9 +22,9 @@\n [字符串](./start/Strings/index.zh-cn.md)\n \n [Map](./start/Map/index.zh-cn.md)\n \n-[Golang学习之路]({{< re>}})\n+[Golang学习之路]({{< relref \"start/LearningPath/index.zh-cn.md\" >}})\n \n \n ## “承”\n \n"
+                },
+                {
+                    "date": 1715565186802,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -22,9 +22,9 @@\n [字符串](./start/Strings/index.zh-cn.md)\n \n [Map](./start/Map/index.zh-cn.md)\n \n-[Golang学习之路]({{< relref \"start/LearningPath/index.zh-cn.md\" >}})\n+[Golang学习之路]({{< relref \"./start/LearningPath/index.zh-cn.md\" >}})\n \n \n ## “承”\n \n"
+                },
+                {
+                    "date": 1715565199033,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -22,9 +22,9 @@\n [字符串](./start/Strings/index.zh-cn.md)\n \n [Map](./start/Map/index.zh-cn.md)\n \n-[Golang学习之路]({{< relref \"./start/LearningPath/index.zh-cn.md\" >}})\n+[Golang学习之路]({{< ref \"./start/LearningPath/index.zh-cn.md\" >}})\n \n \n ## “承”\n \n"
+                },
+                {
+                    "date": 1715565361710,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -22,9 +22,9 @@\n [字符串](./start/Strings/index.zh-cn.md)\n \n [Map](./start/Map/index.zh-cn.md)\n \n-[Golang学习之路]({{< ref \"./start/LearningPath/index.zh-cn.md\" >}})\n+[Golang学习之路]({{< ref \"/\" >}})\n \n \n ## “承”\n \n"
+                },
+                {
+                    "date": 1715565368675,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -22,9 +22,9 @@\n [字符串](./start/Strings/index.zh-cn.md)\n \n [Map](./start/Map/index.zh-cn.md)\n \n-[Golang学习之路]({{< ref \"/\" >}})\n+[Golang学习之路]({{< ref \"/content/post/Gohh/\" >}})\n \n \n ## “承”\n \n"
+                },
+                {
+                    "date": 1715565419402,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -22,9 +22,9 @@\n [字符串](./start/Strings/index.zh-cn.md)\n \n [Map](./start/Map/index.zh-cn.md)\n \n-[Golang学习之路]({{< ref \"/content/post/Gohh/\" >}})\n+[Golang学习之路]({{< ref \"/content/post/Gohh/1.ComputerBasics/CSLanguages/Golang/start/LearningPath/index.zh-cn.md\" >}})\n \n \n ## “承”\n \n"
+                },
+                {
+                    "date": 1715565472351,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -22,9 +22,9 @@\n [字符串](./start/Strings/index.zh-cn.md)\n \n [Map](./start/Map/index.zh-cn.md)\n \n-[Golang学习之路]({{< ref \"/content/post/Gohh/1.ComputerBasics/CSLanguages/Golang/start/LearningPath/index.zh-cn.md\" >}})\n+[Golang学习之路]({{< ref \"/post/Gohh/1.ComputerBasics/CSLanguages/Golang/start/LearningPath/index.zh-cn.md\" >}})\n \n \n ## “承”\n \n"
+                },
+                {
+                    "date": 1715565731533,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -22,9 +22,9 @@\n [字符串](./start/Strings/index.zh-cn.md)\n \n [Map](./start/Map/index.zh-cn.md)\n \n-[Golang学习之路]({{< ref \"/post/Gohh/1.ComputerBasics/CSLanguages/Golang/start/LearningPath/index.zh-cn.md\" >}})\n+[Golang学习之路]({{< ref \"post/Gohh/1.ComputerBasics/CSLanguages/Golang/start/LearningPath/index.zh-cn.md\" >}})\n \n \n ## “承”\n \n"
+                },
+                {
+                    "date": 1715565760582,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -22,11 +22,9 @@\n [字符串](./start/Strings/index.zh-cn.md)\n \n [Map](./start/Map/index.zh-cn.md)\n \n-[Golang学习之路]({{< ref \"post/Gohh/1.ComputerBasics/CSLanguages/Golang/start/LearningPath/index.zh-cn.md\" >}})\n \n-\n ## “承”\n \n [Golang问题集](./development/Problem/index.zh-cn.md)\n \n"
+                },
+                {
+                    "date": 1715566238306,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -8,44 +8,4 @@\n showtoc: true\n weight: -100\n readingTime: true\n ---\n-## “起”\n->\n-> Let's get going Golang!\n-\n-[Golang学习之路](./start/LearningPath/index.zh-cn.md)\n-\n-[Golang资源集合](./start/Resource/index.zh-cn.md)\n-\n-[数据类型](./start/DataType/index.zh-cn.md)\n-\n-[字符串](./start/Strings/index.zh-cn.md)\n-\n-[Map](./start/Map/index.zh-cn.md)\n-\n-\n-## “承”\n-\n-[Golang问题集](./development/Problem/index.zh-cn.md)\n-\n-[Golang面试集](./development/InterviewQuestions/index.zh-cn.md)\n-\n-## “转”\n-\n-### 底层实现\n-\n-[GMP 模型](./transition/GMP_Model/index.zh-cn.md)\n-\n-[GC 垃圾回收](./transition/GC/index.zh-cn.md)\n-\n-[Go并发编程](./transition/Concurrency/index.zh-cn.md)\n-\n-[make一个map会发生什么](./transition/Map/index.zh-cn.md)\n-\n-### 源码解读\n-\n-<!-- [Go-ospackage] -->\n-\n-## “合”\n-\n-<!-- [GoReader] -->\n"
+                }
+            ],
+            "date": 1715561164274,
+            "name": "Commit-0",
+            "content": "---\ntitle: \"Golang 语言学习\"\ndate: 2024-03-10T16:02:27+08:00\ndraft: false\ntaps: [\"Golang\"]\ncategories: [\"Golang\", \"CS\", \"Languages\"]\nauthor: [\"Yeelight\"]\nshowtoc: true\nweight: -100readingTime: true\n---\n## “起”\n> Let's get going Golang!\n\n[[Golang学习之路]]\n[[Golang资源集合]]\n[[Golang --- 关键字与标识符]]\n[[Golang --- 常量与变量]]\n[[Golang --- 数据类型]]\n[[Golang --- 数据类型基础]]\n[[Golang --- 运算操作符]]\n[[Golang --- 字符串]]\n[[Golang --- 包和文件]]\n\n\n## “承”\n[[Golang问题集]]\n[[Golang面试集]]\n\n\n## “转”\n### 底层实现\n[[GMP 模型]]\n[[GC 垃圾回收]]\n[[Go并发编程]]\n[[make 一个 map 会发生什么]]\n\n### 源码解读\n[[Go - os package]]\n## “合”\n\n[[GoReader]]\n"
+        }
+    ]
+}

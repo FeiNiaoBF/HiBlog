@@ -1,0 +1,26 @@
+{
+    "sourceFile": "content/post/Gohh/1.ComputerBasics/CSLanguages/Golang/start/Resource/index.zh-cn.md",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 2,
+            "patches": [
+                {
+                    "date": 1715565567788,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1715565572923,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,9 @@\n ---\n title: \"Resource\"\n date: 2024-05-13T09:08:51+08:00\n-draft: true\n-taps: []\n+draft: false\n+taps: [\"]\n categories: []\n author: [\"Yeelight\"]\n showtoc: true\n weight:\n@@ -23,6 +23,4 @@\n \n [Reddit 上的go社区](https://www.reddit.com/r/golang/)\n \n ## 书籍推荐\n-\n-\n"
+                },
+                {
+                    "date": 1715565580801,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,10 +1,10 @@\n ---\n title: \"Resource\"\n date: 2024-05-13T09:08:51+08:00\n draft: false\n-taps: [\"]\n-categories: []\n+taps: [\"Golang\", \"start\"]\n+categories: [\"Golang\", \"CS\", \"\"]\n author: [\"Yeelight\"]\n showtoc: true\n weight:\n math: false\n"
+                }
+            ],
+            "date": 1715565567788,
+            "name": "Commit-0",
+            "content": "---\ntitle: \"Resource\"\ndate: 2024-05-13T09:08:51+08:00\ndraft: true\ntaps: []\ncategories: []\nauthor: [\"Yeelight\"]\nshowtoc: true\nweight:\nmath: false\nreadingTime: true\n---\n\n## 入门资料\n\n[官方Docs](https://go.dev/doc/effective_go) ，官方的文档是最好的入门资料，强烈推荐看，如果可以完整看完、理解并实践的话说明就吃透 Go 语言了。\n\n[Go by Example](https://gobyexample.com/)，是一个集合了 Go 语言基础类型、特性等众多示例的网站，你可以通过这些实例来初步了解和学习 Go 语言的使用。\n\n[Learn GO with Tests](https://quii.gitbook.io/learn-go-with-tests)，该网址是通过使用 Test 来学习 Go 的开源书籍，在其中作者将以如何使用 Go 自带的 `testing` 库来一步一步的认识 Go 语言当中的类型和其他特性。从中将学习到 **TDD** 的技术、Go 语言的单元测试、学习测试驱动开发等，很大的提升自己的 Go 语言的使用和开发\n\n## 社交平台\n\n[Reddit 上的go社区](https://www.reddit.com/r/golang/)\n\n## 书籍推荐\n\n\n"
+        }
+    ]
+}

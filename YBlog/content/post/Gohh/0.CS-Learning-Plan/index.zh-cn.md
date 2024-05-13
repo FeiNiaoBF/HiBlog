@@ -19,7 +19,7 @@ image: "https://s2.loli.net/2024/04/08/Xej8au1VkhZN4HT.jpg"
 
 ### Go 语言
 
-———> [Go 语言学习]({{< relref "post/Gohh/1.ComputerBasics/CSLanguages/Golang/_index.zh-cn.md" >}})
+———> [Go 语言学习]({{< ref "post/Gohh/1.ComputerBasics/CSLanguages/Golang/_index.zh-cn.md">}})
 
 **项目练习**
 
@@ -27,22 +27,22 @@ image: "https://s2.loli.net/2024/04/08/Xej8au1VkhZN4HT.jpg"
 
 **项目练习**
 
-1. [TG_bot]({{< relref "" >}})
+<!-- 1. [TG_bot]({{< relref "" >}}) -->
 
 ## 数据结构
 
 数据结构是对计算机高级语言最能体现打基础的学习，目前有许多常见的数据结构，我喜欢分类来处理。
 
-### 基础结构
+### [基础结构]({{< ref "post/Gohh/2.DataStructures_Algorithms/GolangDS/_index.zh-cn.md">}})
 
-- **[数组]({{< relref "" >}})**：是一种线性表数据结构，用于存储相同类型的数据元素。
+- **数组**：是一种线性表数据结构，用于存储相同类型的数据元素。
 
   - [x] _二分搜索_
   - [x] _冒泡排序_
   - [ ] _动态规划_
   - ... ...
 
-- **[链表]({{< relref "" >}})**：由一系列节点组成的数据结构，每个节点包含数据和指向下一个节点的指针。
+- **链表**：由一系列节点组成的数据结构，每个节点包含数据和指向下一个节点的指针。
 
   - [ ] _反转链表_
   - [ ] _环形链表_
@@ -110,21 +110,21 @@ image: "https://s2.loli.net/2024/04/08/Xej8au1VkhZN4HT.jpg"
 
 ## 操作系统
 
-[操作系统的具体学习目录]({{< relref "">}})
+[操作系统的具体学习目录]({{< ref "post/Gohh/4.OS/S6.081/_index.zh-cn.md">}})
 
 ## 计算机网络
 
 ## CS 后续学习路径
 
 为自身打造的路径
-\_
+
 目标：人工智能**Artificial intelligence**
 数学
-[Search --- Graph theory]({{< relref "" >}})
+[Search---GraphTheory]({{< relref "" >}})
 
-[Knowledge --- Boolean logic]({{< relref "" >}})
+[Knowledge---BooleanLogic]({{< relref "" >}})
 
-[Uncertainty --- Probability]({{< relref "" >}})
+[Uncertainty---Probability]({{< relref "" >}})
 
 目标：应用程序开发**Application Developer**
 
@@ -134,11 +134,11 @@ image: "https://s2.loli.net/2024/04/08/Xej8au1VkhZN4HT.jpg"
 
 目标：软件工程**Software engineering**
 
-## LeetCode
+<!-- ## LeetCode
 
 每日任务
 [合并两个有序数组]({{< relref "" >}})
 
 [移除元素]({{< relref "" >}})
 
-[删除有序数组中的重复项]({{< relref "" >}})
+[删除有序数组中的重复项]({{< relref "" >}}) -->

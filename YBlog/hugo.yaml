@@ -1,5 +1,5 @@
 baseurl: https://FeiNiaoBF.github.io/
-languageCode: en
+languageCode: zh-cn
 theme: hugo-theme-stack
 paginate: 5
 title: Yeelight の 小屋
@@ -166,7 +166,7 @@ params:
       id:
   widgets:
     homepage:
-      - type: bolg
+      # - type: blog
       - type: search
       - type: archives
         params:
