@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 9,
+            "activePatchIndex": 11,
             "patches": [
                 {
                     "date": 1715563395135,
@@ -44,6 +44,14 @@
                 {
                     "date": 1715565809202,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,9 @@\n ---\n title: \"LearningPath\"\n date: 2024-05-13T09:08:32+08:00\n draft: false\n-taps: [\"Golang\", \"start\"]\n+taps: [\"Golang\", ]\n categories: [\"Golang\", \"CS\", \"Languages\"]\n author: [\"Yeelight\"]\n showtoc: true\n weight:\n"
+                },
+                {
+                    "date": 1716172781799,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,9 @@\n ---\n title: \"LearningPath\"\n date: 2024-05-13T09:08:32+08:00\n draft: false\n-taps: [\"Golang\", ]\n+taps: [\"Golang\", \"start\"]\n categories: [\"Golang\", \"CS\", \"Languages\"]\n author: [\"Yeelight\"]\n showtoc: true\n weight:\n"
+                },
+                {
+                    "date": 1716175496301,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,6 @@\n ---\n-title: \"LearningPath\"\n+title: \"学习之路\"\n date: 2024-05-13T09:08:32+08:00\n draft: false\n taps: [\"Golang\", \"start\"]\n categories: [\"Golang\", \"CS\", \"Languages\"]\n"
                 }
             ],
             "date": 1715563395135,

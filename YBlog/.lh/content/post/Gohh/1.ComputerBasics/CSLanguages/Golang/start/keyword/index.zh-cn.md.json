@@ -1,0 +1,42 @@
+{
+    "sourceFile": "content/post/Gohh/1.ComputerBasics/CSLanguages/Golang/start/keyword/index.zh-cn.md",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 6,
+            "patches": [
+                {
+                    "date": 1716172732165,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1716172738006,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,8 +1,9 @@\n ---\n title: \"Keyword\"\n date: 2024-05-20T10:37:53+08:00\n-draft: fa\n+draft: false\n+taps: []\n categories: []\n author: [\"Yeelight\"]\n showtoc: true\n weight:\n"
+                },
+                {
+                    "date": 1716172743912,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -9,4 +9,24 @@\n weight:\n math: false\n readingTime: true\n ---\n+\n+## 25个关键字\n+\n+```go\n+break     default      func    interface  select\n+case      defer        go      map        struct\n+chan      else         goto    package    switch\n+const     fallthrough  if      range      type\n+continue  for          import  return     var\n+```\n+\n+## 规定的标识符（Unicode 字符）\n+\n+- 标识符由字母（Unicode字母，包括中文等）、数字和下划线（`_`）组成。\n+- 标识符的第一个字符必须是字母或下划线。\n+- 标识符区分大小写，例如`count`和`Count`是两个不同的标识符。\n+- 标识符不能是Go语言的关键字。\n+\n+注意：\n+\t中文的标识符是 `private` \n"
+                },
+                {
+                    "date": 1716172749335,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -28,5 +28,5 @@\n - 标识符区分大小写，例如`count`和`Count`是两个不同的标识符。\n - 标识符不能是Go语言的关键字。\n \n 注意：\n-\t中文的标识符是 `private` \n+ 中文的标识符是 `private`\n"
+                },
+                {
+                    "date": 1716172764541,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,10 +1,10 @@\n ---\n title: \"Keyword\"\n date: 2024-05-20T10:37:53+08:00\n draft: false\n-taps: []\n-categories: []\n+taps: [\"Golang\"]\n+categories: [\"Golang\", \"CS\", \"Languages\",\"start\"]\n author: [\"Yeelight\"]\n showtoc: true\n weight:\n math: false\n"
+                },
+                {
+                    "date": 1716172773005,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,10 +1,10 @@\n ---\n title: \"Keyword\"\n date: 2024-05-20T10:37:53+08:00\n draft: false\n-taps: [\"Golang\"]\n-categories: [\"Golang\", \"CS\", \"Languages\",\"start\"]\n+taps: [\"Golang\"\"start\"]\n+categories: [\"Golang\", \"CS\", \"Languages\",]\n author: [\"Yeelight\"]\n showtoc: true\n weight:\n math: false\n"
+                },
+                {
+                    "date": 1716172806658,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,10 +1,10 @@\n ---\n-title: \"Keyword\"\n+title: \"关键字与标识符\"\n date: 2024-05-20T10:37:53+08:00\n draft: false\n-taps: [\"Golang\"\"start\"]\n-categories: [\"Golang\", \"CS\", \"Languages\",]\n+taps: [\"Golang\", \"start\"]\n+categories: [\"Golang\", \"CS\", \"Languages\"]\n author: [\"Yeelight\"]\n showtoc: true\n weight:\n math: false\n"
+                }
+            ],
+            "date": 1716172732165,
+            "name": "Commit-0",
+            "content": "---\ntitle: \"Keyword\"\ndate: 2024-05-20T10:37:53+08:00\ndraft: fa\ncategories: []\nauthor: [\"Yeelight\"]\nshowtoc: true\nweight:\nmath: false\nreadingTime: true\n---\n"
+        }
+    ]
+}

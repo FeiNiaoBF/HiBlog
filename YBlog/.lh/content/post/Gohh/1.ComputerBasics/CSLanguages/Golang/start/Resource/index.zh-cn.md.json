@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 2,
+            "activePatchIndex": 8,
             "patches": [
                 {
                     "date": 1715565567788,
@@ -16,6 +16,30 @@
                 {
                     "date": 1715565580801,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,10 +1,10 @@\n ---\n title: \"Resource\"\n date: 2024-05-13T09:08:51+08:00\n draft: false\n-taps: [\"]\n-categories: []\n+taps: [\"Golang\", \"start\"]\n+categories: [\"Golang\", \"CS\", \"\"]\n author: [\"Yeelight\"]\n showtoc: true\n weight:\n math: false\n"
+                },
+                {
+                    "date": 1716172549949,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,9 +2,9 @@\n title: \"Resource\"\n date: 2024-05-13T09:08:51+08:00\n draft: false\n taps: [\"Golang\", \"start\"]\n-categories: [\"Golang\", \"CS\", \"\"]\n+categories: [\"Golang\", \"CS\", \"Resource\"]\n author: [\"Yeelight\"]\n showtoc: true\n weight:\n math: false\n@@ -23,4 +23,18 @@\n \n [Reddit 上的go社区](https://www.reddit.com/r/golang/)\n \n ## 书籍推荐\n+\n+### 电子书\n+[Golang修养之路](https://www.yuque.com/aceld/golang)\n+[Go 语言设计与实现](https://draveness.me/golang/)\n+[Golang中文学习文档站](https://golang.halfiisland.com/)\n+[Go 语言原本](https://golang.design/under-the-hood/)\n+[Go语言101](https://gfw.go101.org/)\n+\n+### 实体书\n+\n+\n+## Github stars\n+\n+[Starred to github](https://github.com/stars/FeiNiaoBF/lists/golang)\n"
+                },
+                {
+                    "date": 1716172557414,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -25,16 +25,16 @@\n \n ## 书籍推荐\n \n ### 电子书\n+\n [Golang修养之路](https://www.yuque.com/aceld/golang)\n [Go 语言设计与实现](https://draveness.me/golang/)\n [Golang中文学习文档站](https://golang.halfiisland.com/)\n [Go 语言原本](https://golang.design/under-the-hood/)\n [Go语言101](https://gfw.go101.org/)\n \n ### 实体书\n \n-\n ## Github stars\n \n [Starred to github](https://github.com/stars/FeiNiaoBF/lists/golang)\n"
+                },
+                {
+                    "date": 1716172564357,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,6 @@\n ---\n-title: \"Resource\"\n+title: \"\"\n date: 2024-05-13T09:08:51+08:00\n draft: false\n taps: [\"Golang\", \"start\"]\n categories: [\"Golang\", \"CS\", \"Resource\"]\n"
+                },
+                {
+                    "date": 1716172572729,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,6 @@\n ---\n-title: \"\"\n+title: \"Gozi'yuan\"\n date: 2024-05-13T09:08:51+08:00\n draft: false\n taps: [\"Golang\", \"start\"]\n categories: [\"Golang\", \"CS\", \"Resource\"]\n"
+                },
+                {
+                    "date": 1716172579010,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,6 @@\n ---\n-title: \"Gozi'yuan\"\n+title: \"Go学习资源\"\n date: 2024-05-13T09:08:51+08:00\n draft: false\n taps: [\"Golang\", \"start\"]\n categories: [\"Golang\", \"CS\", \"Resource\"]\n"
+                },
+                {
+                    "date": 1716172789639,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,9 +2,9 @@\n title: \"Go学习资源\"\n date: 2024-05-13T09:08:51+08:00\n draft: false\n taps: [\"Golang\", \"start\"]\n-categories: [\"Golang\", \"CS\", \"Resource\"]\n+categories: [\"Golang\", \"CS\", \"Languages\"]\n author: [\"Yeelight\"]\n showtoc: true\n weight:\n math: false\n"
                 }
             ],
             "date": 1715565567788,

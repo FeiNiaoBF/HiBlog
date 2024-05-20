@@ -1,5 +1,5 @@
 ---
-title: "Resource"
+title: "Go学习资源"
 date: 2024-05-13T09:08:51+08:00
 draft: false
 taps: ["Golang", "start"]
@@ -24,3 +24,17 @@ readingTime: true
 [Reddit 上的go社区](https://www.reddit.com/r/golang/)
 
 ## 书籍推荐
+
+### 电子书
+
+[Golang修养之路](https://www.yuque.com/aceld/golang)
+[Go 语言设计与实现](https://draveness.me/golang/)
+[Golang中文学习文档站](https://golang.halfiisland.com/)
+[Go 语言原本](https://golang.design/under-the-hood/)
+[Go语言101](https://gfw.go101.org/)
+
+### 实体书
+
+## Github stars
+
+[Starred to github](https://github.com/stars/FeiNiaoBF/lists/golang)

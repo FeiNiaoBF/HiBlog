@@ -1,9 +1,9 @@
 ---
-title: "LearningPath"
+title: "学习之路"
 date: 2024-05-13T09:08:32+08:00
 draft: false
-taps: ["Golang"]
-categories: ["Golang", "CS", "Languages","start"]
+taps: ["Golang", "start"]
+categories: ["Golang", "CS", "Languages"]
 author: ["Yeelight"]
 showtoc: true
 weight:

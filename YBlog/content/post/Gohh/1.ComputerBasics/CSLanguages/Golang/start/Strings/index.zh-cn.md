@@ -1,17 +1,17 @@
 ---
-title: "Strings"
+title: 'Strings'
 date: 2024-05-13T09:10:39+08:00
 draft: false
-taps: ["Golang", "string"]
-categories: ["Golang", "CS","start"]
-author: ["Yeelight"]
+taps: ['Golang', 'string', 'start']
+categories: ['Golang', 'CS']
+author: ['Yeelight']
 showtoc: true
 weight:
 math: false
 readingTime: true
 ---
 
-## UTF-8编码和 Unicode 文本区别
+## UTF-8 编码和 Unicode 文本区别
 
 在 Golang 中字符串的底层结构字节使用 UTF-8 编码来表示 Unicode 文本
 
