@@ -1,0 +1,74 @@
+{
+    "sourceFile": "content/post/Gohh/1.ComputerBasics/CSLanguages/Golang/transition/goweb1/index.zh-cn.md",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 14,
+            "patches": [
+                {
+                    "date": 1718117149726,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1718117159499,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -9,4 +9,68 @@\n weight:\n math: false\n readingTime: true\n ---\n+\n+> 如何通过 Go 来编写 Web\n+>\n+## Web\n+\n+### HTTP 是什么\n+\n+-> [[http 是什么]]\n+\n+Web 是什么，有些人认为是一个网页，有些人认为是 World Wide Web（万维网）系统，有些人认为是网路时代的代指。都没错，但为了不在下面的文字中模糊这个词，孤自认为 Web 是一个管理资源的**服务端**，而 Go 所做的就是搭建这个服务端。\n+\n+一个 Web 服务器，它监听来自客服端的请求，并通过 **HTTP 协议**将自己与客户端通信。这个客户端通常指的是 *Web Browser*。\n+\n+### Web 服务器\n+\n+Web 服务器的工作流程为：\n+\n+1. 监听来自客户端通过 **TCP/IP 协议**建立到服务器的 TCP 连接请求\n+2. **处理并解析**请求的内容，确定客户端请求的是哪个资源\n+3. 服务端根据请求处理的结果生成 **HTTP 响应**\n+4. 服务端将响应和（静态/动态）资源通过互联网**送回**客户端\n+5. **持久连接/非持久连接**\n+\n+### RESTful 架构\n+\n+表现层状态转换（**Representational State Transfer**）是根基于**超文本传输协议（HTTP）** 之上而确定的一组约束和属性，是一种设计提供万维网络服务的**软件构建风格**。符合或兼容于这种架构风格（简称为 REST 或 RESTful）的网络服务，允许客户端发出以**统一资源标识符**访问和操作网络资源的请求，而与预先定义好的无状态操作集一致化。\n+![](https://s2.loli.net/2024/05/26/IO7laRYz1WBTG94.png)\n+\n+- 每一个 **URI** 代表一种资源\n+- 客户端和服务器之间，传递这种资源的某种表现层\n+- 客户端通过四个 HTTP 方法，对服务器端资源进行操作，实现\"表现层状态转化\"\n+\n+## net/http package\n+\n+`net/http` 是 Go 官方的标准包\n+\n+我对 net/http 的原理解析-> [[http package]]\n+\n+```go\n+func SayHello(w http.ResponseWriter, r *http.Request) {\n+    _, err := fmt.Fprintln(w, \"Hello Go Web\")\n+    if err != nil {\n+       return\n+    }\n+}\n+\n+func main() {\n+    http.HandleFunc(\"/hello\", SayHello)\n+    http.ListenAndServe(\":9999\", nil)\n+}\n+```\n+\n+Go 中的 http 很体贴的将一些过程抽象了，其中就只有 `ListenAndServe` 来监听客户端的请求，`HandleFunc`  来注册一个处理器和对应的 pattem 建立 route ，`SayHello` 是具体的 Handler 函数。\n+\n+Web 工作方式的几个概念\n+\n+- Request：用户请求的信息，用来解析用户的请求信息，包括 post、get、cookie、url 等信息\n+- Response：服务器需要反馈给客户端的信息\n+- Conn：用户的每次请求链接\n+- Handler：处理请求和生成返回信息的处理逻辑\n+\n+## 外部链接\n+\n+[理解RESTful架构](https://www.ruanyifeng.com/blog/2011/09/restful.html)\n"
+                },
+                {
+                    "date": 1718117174327,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -35,9 +35,9 @@\n \n ### RESTful 架构\n \n 表现层状态转换（**Representational State Transfer**）是根基于**超文本传输协议（HTTP）** 之上而确定的一组约束和属性，是一种设计提供万维网络服务的**软件构建风格**。符合或兼容于这种架构风格（简称为 REST 或 RESTful）的网络服务，允许客户端发出以**统一资源标识符**访问和操作网络资源的请求，而与预先定义好的无状态操作集一致化。\n-![](https://s2.loli.net/2024/05/26/IO7laRYz1WBTG94.png)\n+![URL](https://s2.loli.net/2024/05/26/IO7laRYz1WBTG94.png)\n \n - 每一个 **URI** 代表一种资源\n - 客户端和服务器之间，传递这种资源的某种表现层\n - 客户端通过四个 HTTP 方法，对服务器端资源进行操作，实现\"表现层状态转化\"\n"
+                },
+                {
+                    "date": 1718117187553,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -35,9 +35,9 @@\n \n ### RESTful 架构\n \n 表现层状态转换（**Representational State Transfer**）是根基于**超文本传输协议（HTTP）** 之上而确定的一组约束和属性，是一种设计提供万维网络服务的**软件构建风格**。符合或兼容于这种架构风格（简称为 REST 或 RESTful）的网络服务，允许客户端发出以**统一资源标识符**访问和操作网络资源的请求，而与预先定义好的无状态操作集一致化。\n-![URL](https://s2.loli.net/2024/05/26/IO7laRYz1WBTG94.png)\n+![URL&URI&URT](https://s2.loli.net/2024/05/26/IO7laRYz1WBTG94.png)\n \n - 每一个 **URI** 代表一种资源\n - 客户端和服务器之间，传递这种资源的某种表现层\n - 客户端通过四个 HTTP 方法，对服务器端资源进行操作，实现\"表现层状态转化\"\n"
+                },
+                {
+                    "date": 1718117233611,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -16,8 +16,9 @@\n ## Web\n \n ### HTTP 是什么\n \n+// \n -> [[http 是什么]]\n \n Web 是什么，有些人认为是一个网页，有些人认为是 World Wide Web（万维网）系统，有些人认为是网路时代的代指。都没错，但为了不在下面的文字中模糊这个词，孤自认为 Web 是一个管理资源的**服务端**，而 Go 所做的就是搭建这个服务端。\n \n@@ -35,9 +36,9 @@\n \n ### RESTful 架构\n \n 表现层状态转换（**Representational State Transfer**）是根基于**超文本传输协议（HTTP）** 之上而确定的一组约束和属性，是一种设计提供万维网络服务的**软件构建风格**。符合或兼容于这种架构风格（简称为 REST 或 RESTful）的网络服务，允许客户端发出以**统一资源标识符**访问和操作网络资源的请求，而与预先定义好的无状态操作集一致化。\n-![URL&URI&URT](https://s2.loli.net/2024/05/26/IO7laRYz1WBTG94.png)\n+![URL&URI&URN](https://s2.loli.net/2024/05/26/IO7laRYz1WBTG94.png)\n \n - 每一个 **URI** 代表一种资源\n - 客户端和服务器之间，传递这种资源的某种表现层\n - 客户端通过四个 HTTP 方法，对服务器端资源进行操作，实现\"表现层状态转化\"\n"
+                },
+                {
+                    "date": 1718117240814,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -16,9 +16,9 @@\n ## Web\n \n ### HTTP 是什么\n \n-// \n+<!-- TODO LINK -->\n -> [[http 是什么]]\n \n Web 是什么，有些人认为是一个网页，有些人认为是 World Wide Web（万维网）系统，有些人认为是网路时代的代指。都没错，但为了不在下面的文字中模糊这个词，孤自认为 Web 是一个管理资源的**服务端**，而 Go 所做的就是搭建这个服务端。\n \n"
+                },
+                {
+                    "date": 1718117271673,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,8 +1,8 @@\n ---\n title: \"Go Web的学习1\"\n date: 2024-06-11T22:45:30+08:00\n-draft: true\n+draft: false\n taps: []\n categories: []\n author: [\"Yeelight\"]\n showtoc: true\n"
+                },
+                {
+                    "date": 1718117277250,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,9 +2,9 @@\n title: \"Go Web的学习1\"\n date: 2024-06-11T22:45:30+08:00\n draft: false\n taps: []\n-categories: []\n+categories: ['']\n author: [\"Yeelight\"]\n showtoc: true\n weight:\n math: false\n"
+                },
+                {
+                    "date": 1718117283420,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,9 +2,9 @@\n title: \"Go Web的学习1\"\n date: 2024-06-11T22:45:30+08:00\n draft: false\n taps: []\n-categories: ['']\n+categories: ['Golang', 'Web']\n author: [\"Yeelight\"]\n showtoc: true\n weight:\n math: false\n"
+                },
+                {
+                    "date": 1718117289499,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,9 @@\n ---\n title: \"Go Web的学习1\"\n date: 2024-06-11T22:45:30+08:00\n draft: false\n-taps: []\n+taps: ['web']\n categories: ['Golang', 'Web']\n author: [\"Yeelight\"]\n showtoc: true\n weight:\n"
+                },
+                {
+                    "date": 1718117625345,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -46,9 +46,9 @@\n ## net/http package\n \n `net/http` 是 Go 官方的标准包\n \n-我对 net/http 的原理解析-> [[http package]]\n+我对 net/http 的原理解析-> [基础结构]({{< ref \"post/Gohh/2.DataStructures/GolangDS/_index.zh-cn.md\">}})\n \n ```go\n func SayHello(w http.ResponseWriter, r *http.Request) {\n     _, err := fmt.Fprintln(w, \"Hello Go Web\")\n"
+                },
+                {
+                    "date": 1718117631459,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -46,9 +46,9 @@\n ## net/http package\n \n `net/http` 是 Go 官方的标准包\n \n-我对 net/http 的原理解析-> [基础结构]({{< ref \"post/Gohh/2.DataStructures/GolangDS/_index.zh-cn.md\">}})\n+我对 net/http 的原理解析-> [http package]\n \n ```go\n func SayHello(w http.ResponseWriter, r *http.Request) {\n     _, err := fmt.Fprintln(w, \"Hello Go Web\")\n"
+                },
+                {
+                    "date": 1718117638696,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -46,10 +46,11 @@\n ## net/http package\n \n `net/http` 是 Go 官方的标准包\n \n-我对 net/http 的原理解析-> [http package]\n \n+我对 net/http 的原理解析-> [[http package]]\n+\n ```go\n func SayHello(w http.ResponseWriter, r *http.Request) {\n     _, err := fmt.Fprintln(w, \"Hello Go Web\")\n     if err != nil {\n"
+                },
+                {
+                    "date": 1718117652291,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -17,9 +17,9 @@\n \n ### HTTP 是什么\n \n <!-- TODO LINK -->\n--> [[http 是什么]]\n+-> [[http 是什么]\n \n Web 是什么，有些人认为是一个网页，有些人认为是 World Wide Web（万维网）系统，有些人认为是网路时代的代指。都没错，但为了不在下面的文字中模糊这个词，孤自认为 Web 是一个管理资源的**服务端**，而 Go 所做的就是搭建这个服务端。\n \n 一个 Web 服务器，它监听来自客服端的请求，并通过 **HTTP 协议**将自己与客户端通信。这个客户端通常指的是 *Web Browser*。\n@@ -46,8 +46,9 @@\n ## net/http package\n \n `net/http` 是 Go 官方的标准包\n \n+🚧🚧🚧\n \n 我对 net/http 的原理解析-> [[http package]]\n \n ```go\n"
+                },
+                {
+                    "date": 1718117658571,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -17,9 +17,9 @@\n \n ### HTTP 是什么\n \n <!-- TODO LINK -->\n--> [http 是什么]\n+-> [http 是什么][基础结构]({{< ref \"post/Gohh/2.DataStructures/GolangDS/_index.zh-cn.md\">}})\n \n Web 是什么，有些人认为是一个网页，有些人认为是 World Wide Web（万维网）系统，有些人认为是网路时代的代指。都没错，但为了不在下面的文字中模糊这个词，孤自认为 Web 是一个管理资源的**服务端**，而 Go 所做的就是搭建这个服务端。\n \n 一个 Web 服务器，它监听来自客服端的请求，并通过 **HTTP 协议**将自己与客户端通信。这个客户端通常指的是 *Web Browser*。\n"
+                }
+            ],
+            "date": 1718117149725,
+            "name": "Commit-0",
+            "content": "---\ntitle: \"Go Web的学习1\"\ndate: 2024-06-11T22:45:30+08:00\ndraft: true\ntaps: []\ncategories: []\nauthor: [\"Yeelight\"]\nshowtoc: true\nweight:\nmath: false\nreadingTime: true\n---\n"
+        }
+    ]
+}

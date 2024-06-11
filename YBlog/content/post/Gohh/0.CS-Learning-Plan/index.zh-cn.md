@@ -33,7 +33,7 @@ image: "https://s2.loli.net/2024/04/08/Xej8au1VkhZN4HT.jpg"
 
 数据结构是对计算机高级语言最能体现打基础的学习，目前有许多常见的数据结构，我喜欢分类来处理。
 
-### [基础结构]({{< ref "post/Gohh/2.DataStructures_Algorithms/GolangDS/_index.zh-cn.md">}})
+### [基础结构]({{< ref "post/Gohh/2.DataStructures/GolangDS/_index.zh-cn.md">}})
 
 - **数组**：是一种线性表数据结构，用于存储相同类型的数据元素。
 

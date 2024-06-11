@@ -1,5 +1,5 @@
 ---
-title: "数据结构和算法"
+title: "数据结构"
 date: 2024-03-14T21:43:01+08:00
 draft: false
 taps: []

@@ -1,0 +1,46 @@
+{
+    "sourceFile": "content/post/Gohh/Algorithms/backtrack/index.md",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 7,
+            "patches": [
+                {
+                    "date": 1718116804884,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1718116810168,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,6 @@\n ---\n-title: \"Backtrack\"\n+title: \"回溯算法\"\n date: 2024-06-11T22:39:52+08:00\n draft: true\n taps: []\n categories: []\n"
+                },
+                {
+                    "date": 1718116817578,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -10,5 +10,30 @@\n math: false\n readingTime: true\n ---\n \n+> 有组合就要回溯\n+## 问题\n \n+先想一个问题：\n+怎么利用计算机算法去计算关于排序组合等的数学问题?\n+\n+这些数学问题有个最大的特点他们都要根据数字多少来进去匹配，然后再来判断是否合题意\n+\n+接下来我从两个方面图像逻辑和数学角度来讨论\n+### 从图像逻辑上来看\n+\n+我依稀记得我在计算组合的时候我喜欢画图，画一幅 N 树形图来找组合的数量，像下面这个图：\n+\n+其实这个图向右转 90 度就是一副树图，从横向看和纵向看\n+\n+### 从数学角度来看\n+\n+\n+\n+一层的递归就是一次遍历\n+\n+\n+递归\n+1. 确立终止条件\n+2. 参数和返回值\n+3. 主体逻辑\n"
+                },
+                {
+                    "date": 1718116823417,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -28,12 +28,11 @@\n \n ### 从数学角度来看\n \n \n-\n 一层的递归就是一次遍历\n \n+递归\n \n-递归\n 1. 确立终止条件\n 2. 参数和返回值\n 3. 主体逻辑\n"
+                },
+                {
+                    "date": 1718116844946,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,34 +2,35 @@\n title: \"回溯算法\"\n date: 2024-06-11T22:39:52+08:00\n draft: true\n taps: []\n-categories: []\n+categories: ['']\n author: [\"Yeelight\"]\n showtoc: true\n weight:\n math: false\n readingTime: true\n ---\n \n > 有组合就要回溯\n+>\n ## 问题\n \n 先想一个问题：\n 怎么利用计算机算法去计算关于排序组合等的数学问题?\n \n 这些数学问题有个最大的特点他们都要根据数字多少来进去匹配，然后再来判断是否合题意\n \n 接下来我从两个方面图像逻辑和数学角度来讨论\n+\n ### 从图像逻辑上来看\n \n 我依稀记得我在计算组合的时候我喜欢画图，画一幅 N 树形图来找组合的数量，像下面这个图：\n \n 其实这个图向右转 90 度就是一副树图，从横向看和纵向看\n \n ### 从数学角度来看\n \n-\n 一层的递归就是一次遍历\n \n 递归\n \n"
+                },
+                {
+                    "date": 1718116850992,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,9 +2,9 @@\n title: \"回溯算法\"\n date: 2024-06-11T22:39:52+08:00\n draft: true\n taps: []\n-categories: ['']\n+categories: ['Algorithms', 'backtrack']\n author: [\"Yeelight\"]\n showtoc: true\n weight:\n math: false\n"
+                },
+                {
+                    "date": 1718118213693,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,8 +1,8 @@\n ---\n title: \"回溯算法\"\n date: 2024-06-11T22:39:52+08:00\n-draft: true\n+draft: false\n taps: []\n categories: ['Algorithms', 'backtrack']\n author: [\"Yeelight\"]\n showtoc: true\n"
+                },
+                {
+                    "date": 1718118221389,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,9 @@\n ---\n title: \"回溯算法\"\n date: 2024-06-11T22:39:52+08:00\n draft: false\n-taps: []\n+taps: ['ba']\n categories: ['Algorithms', 'backtrack']\n author: [\"Yeelight\"]\n showtoc: true\n weight:\n"
+                }
+            ],
+            "date": 1718116804884,
+            "name": "Commit-0",
+            "content": "---\ntitle: \"Backtrack\"\ndate: 2024-06-11T22:39:52+08:00\ndraft: true\ntaps: []\ncategories: []\nauthor: [\"Yeelight\"]\nshowtoc: true\nweight:\nmath: false\nreadingTime: true\n---\n\n\n"
+        }
+    ]
+}
