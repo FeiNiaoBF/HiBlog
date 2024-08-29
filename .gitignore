@@ -1,0 +1,9 @@
+public/
+themes/*/node_modules/
+*.log
+*.swp
+.DS_Store
+.lh
+.hugo_cache/
+.vscode/
+
